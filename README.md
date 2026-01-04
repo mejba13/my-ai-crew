@@ -10,6 +10,9 @@ A production-ready AI agent system designed for multi-brand content management. 
 
 My AI Crew is a centralized command center for AI-powered content creation. Each agent is a specialized team member with expertise in specific domains, ensuring consistent, professional output across all your brands.
 
+<img width="1805" height="1382" alt="main-banner" src="https://github.com/user-attachments/assets/db92da38-3578-42a5-b221-c6c2e3c17d5b" />
+
+
 ### Current Team Members
 
 | Agent | Role | Model | Status |
