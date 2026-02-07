@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**My AI Crew** is a multi-brand AI content creation system using Claude Code agents. It generates SEO-optimized blog posts (2,500-3,000 words) for four websites with distinct brand voices.
+**My AI Crew** is a multi-brand AI content creation system using Claude Code agents. It generates SEO-optimized blog posts (3,000-5,000 words) for four websites with distinct brand voices.
 
 ## Architecture
 
@@ -51,10 +51,8 @@ Every generated post must include:
 - Title (< 60 characters, primary keyword in first half)
 - Slug (3-5 words, lowercase, hyphenated)
 - Exactly 5 tags (2 broad + 2 specific + 1 format)
-- Meta description (150-160 characters)
-- Article body (2,500-3,000 words strictly)
+- Article body (3,000-5,000 words strictly)
 - Brand-specific footer/CTA (mandatory)
-- Featured image prompt matching brand colors
 
 **Constraints:**
 - No table of contents
