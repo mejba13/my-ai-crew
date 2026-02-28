@@ -1,203 +1,187 @@
 **BRAND:** mejba.me
-**TITLE:** Coder IDE Review: I Let AI Build My App in 10 Minutes
-**SLUG:** coder-ide-quest-mode-review
-**TAGS:** AI Tools, Developer Tools, Coder IDE, Quest Mode, Review
+**TITLE:** Coder IDE Quest Mode Changed How I Build Apps
+**SLUG:** coder-ide-review-2026
+**TAGS:** AI Development, Developer Tools, Coder IDE, Quest Mode, Tool Review
 
 ---
 
-I watched a JavaScript visualizer appear from nothing.
+The cursor stopped blinking.
 
-Not "helped build." Not "assisted with." I typed a prompt into a box, answered five questions, and ten minutes later — a fully functional, dark-mode JavaScript execution visualizer was running on localhost:3000, complete with animated call stacks, event loop visualization, and Promises support.
+I'd typed out a four-line prompt, hit enter, and gone to make coffee. When I came back — maybe three minutes later — the terminal was alive with file generation logs. Not a few files. An entire project structure: components, a custom JavaScript interpreter, animation configurations, a Next.js scaffold, a `package.json` with dependencies already installed, and a `localhost:3000` URL sitting there waiting to be opened.
 
-That was my first real experience with Coder IDE's Quest Mode. And honestly, I'm still processing it.
+I hadn't written a single line of code.
 
-I'd been hearing about Coder for a few weeks before I actually sat down with it. Another AI coding tool, I assumed. Another thing that writes half-broken code and leaves me cleaning up the mess. I've been building software long enough to be deeply skeptical of "AI writes your whole app" claims — I've been burned by those before.
+That was my seventh day testing Coder IDE, and it was the moment I realized this tool operates from a different assumption than everything else I've used. GitHub Copilot assumes you're driving. Cursor assumes you're navigating. Coder assumes you're willing to hand over the wheel entirely — and it's prepared to take the car somewhere worth going.
 
-But I gave it ten days. What I found surprised me in ways I didn't expect. Some of it genuinely impressed me. Some of it made me wonder what we're all walking toward. I'll get to both.
+What I couldn't shake: the code was actually good. Not "passable AI output that needs three rounds of cleanup." Genuinely good. Modular, readable, with components that made architectural sense. That's not something I say easily. I've spent enough time reviewing AI-generated code to know when something looks right but falls apart the moment you push it toward production.
 
-Here's what nobody mentions in the glowing first-impression posts: the best feature of Coder IDE isn't the one they advertise loudest. Keep that in mind as I walk through everything — because by the time you get to the Repo Wiki section, you'll understand exactly what I mean.
+This held up.
 
----
-
-## What AI IDEs Were Missing Before Quest Mode Changed the Formula
-
-Every developer I know has a complicated relationship with AI coding tools right now.
-
-GitHub Copilot autocompletes your functions. Cursor has a composer mode that writes across files. Claude Code runs commands in your terminal. All useful. All limited by the same fundamental constraint — they're assistance tools. You still have to drive. You still have to break the problem down, write the prompts, review every output, catch the errors, restart when something goes sideways.
-
-Which is fine. That's a workflow that works. But it also means you're still spending a significant chunk of your time being a project manager for an AI that needs constant hand-holding.
-
-Quest Mode approaches this differently.
-
-The concept: describe what you want to build, the AI asks clarifying questions, generates a full specification document, and then builds the entire thing autonomously. No step-by-step prompting. No babysitting. You review the spec, say "go," and come back when it's done.
-
-I've been skeptical of this promise for years — I've seen too many "just describe it and we'll build it" tools that collapse the moment complexity increases. Coder is the first one that made me genuinely reconsider that skepticism.
-
-There's a deeper reason this matters, and it connects to something I've been thinking about a lot lately. When you're early in a project — the phase where you're figuring out architecture, component structure, what state needs to live where — that's where most developers slow down. The actual coding is often the faster part. Quest Mode compresses that planning-to-building gap into a ten-minute conversation.
-
-Before I explain exactly how it works, you need to understand the model powering it. Because that's where the quality difference starts — and most reviews skip right past it.
+The question I'd been chasing across seven to ten days of testing: could an AI IDE actually replace the scaffolding and setup phase of real development without producing garbage I'd spend twice as long fixing? The answer isn't simple. But it's more optimistic than I expected — and I'm going to show you exactly why, including the parts that made me uncomfortable.
 
 ---
 
-## The Model Behind the Magic (And Why It's Currently Free)
+## Why I Was Even Looking for Something New
 
-Coder IDE is backed by Alibaba's Qin model — a code-specialized AI built specifically for this environment rather than a general-purpose model adapted for code generation.
+Here's the honest version of why I was testing new IDEs at all.
 
-This distinction matters more than it sounds. General-purpose models adapted for code tend to produce plausible-looking code that works in isolation but breaks at integration points. Code-specialized models trained on real production repositories make better architectural decisions. The Qin model leans hard into the latter approach.
+I'm building more things than ever. Client projects, personal automation tools, side experiments, content infrastructure. The actual engineering challenges are interesting. The setup isn't. Every new project starts with the same forty-five minutes of folder creation, framework boilerplate, base component wiring, config file tweaking, dependency installation. That work isn't difficult. It's just slow — and it pulls focus away from the parts of engineering I find genuinely interesting.
 
-During my ten days with it, the generated code was consistently modular. Components were properly separated. State management wasn't scattered across files. The structure made sense — not just "it compiles," but "a senior engineer would organize it this way."
+Most AI coding tools claim to fix this. Most of them don't — not really. What they actually do is autocomplete faster and chat more fluently. You're still writing the setup code. You're still making every structural decision. The AI is a smarter text expander with a surprisingly good memory for Stack Overflow answers.
 
-The other thing worth knowing: Coder IDE is currently free. The Qin model access, the Quest Mode builds, all of it. That will almost certainly change. When it does, the value proposition shifts, and you'll need to decide whether the time savings justify the cost. Right now, during the trial phase, you're getting access to a tool that would cost real money in API credits if you were running equivalent prompts against frontier models.
+I've been using Cursor heavily for months. It's excellent for what it does: codebase-aware suggestions, fast completions, solid multi-file composer. But Cursor still assumes I'm driving. When I start a new project, Cursor helps me write boilerplate faster. It does not write the boilerplate for me, install the dependencies, spin up the dev server, and hand me a running application.
 
-I ran the JavaScript visualizer build. Based on the complexity of what it produced — a full Next.js application with Framer Motion animations, a working JavaScript interpreter, real-time execution visualization — I'd estimate that build would have consumed $15-25 in API costs if I'd done it manually through a frontier model. That's just one project in ten days.
+That gap is where Coder plants its flag.
 
-There's a question I kept returning to during those ten days, though: when you hand a project entirely to an AI, what do you actually learn from building it?
+Quest Mode isn't AI assistance. It's AI delegation. You describe what you want, the AI plans it, you approve or redirect, and then it actually builds — not just writes code to paste somewhere, but opens files, runs commands, installs packages, starts servers, and comes back to report. I'd read about this kind of autonomous agent behavior in research contexts. Seeing it produce a working application in under ten minutes on a real task was different from reading about it.
 
-I'll come back to that. The answer is more complicated than you'd expect — and more important than any feature demo.
-
----
-
-## Editor Mode vs Quest Mode: Two Tools That Serve Different Developers
-
-Most people who try Coder IDE start with Editor Mode, get comfortable, and only reluctantly try Quest Mode later. That's a mistake. But Editor Mode is worth understanding first, because it sets context for what Quest Mode actually achieves.
-
-**Editor Mode** is VS Code with an AI layer built in. You get syntax highlighting, the familiar sidebar, debugging tools, remote exploration, and an AI chat panel. If you've used Cursor, the learning curve is essentially zero. You can ask the AI to explain code, refactor functions, write tests, or debug errors. It's a solid assistant.
-
-What's slightly different from Cursor: the chat agent in Editor Mode seems better calibrated for multi-file context. When I asked it to refactor a module that touched five different files, it tracked the dependencies correctly without hallucinating imports. Meaningful improvement — though I'll be honest, I didn't run a rigorous side-by-side comparison.
-
-**Quest Mode** is where Coder becomes genuinely different.
-
-You open a Quest, type a description of what you want to build, and the AI takes control of the session. You can intervene at any point. But the default behavior is full autonomy — the AI plans, generates a specification document, creates the project structure, writes all the code, installs dependencies, runs the development server, and tells you when it's done.
-
-The JavaScript visualizer started like this:
-
-*"Build a JavaScript code visualizer that shows the global execution context, call stack, event loop, Web APIs, task queue, and microtask queue. It should animate step-by-step execution of JS code. Support Promises, async/await, setTimeout. Dark mode UI with high visual quality."*
-
-That was the entire prompt. From there, the AI asked five clarifying questions:
-- Preferred frontend framework? (React)
-- Which JS features to prioritize? (Promises, async/await, setTimeout)
-- JS interpreter or WebAssembly for execution? (JS interpreter — more flexible)
-- Code editor preference? (VS Code-like syntax highlighting)
-- Animation style? (Smooth, professional)
-
-Five questions. Then it generated a twelve-section specification document, outlined the complete component architecture, and started building.
-
-Ten minutes later, it was running on localhost:3000.
+But before we get to the demo — and the results — you need to understand the model powering all of this. Because that's where the quality gap starts, and most reviews skip right past it.
 
 ---
 
-## What the Build Actually Produced — With Real Specifics
+## Qwen Coder 1.0 — The Model Behind Everything
 
-Vague enthusiasm doesn't help you evaluate a tool. Let me be precise.
+Coder IDE uses a proprietary AI model called Qwen Coder 1.0, developed by Alibaba specifically for this IDE and its autonomous coding workflows.
 
-The stack Coder chose: **Next.js 14** for the frontend framework, **Framer Motion** for animations, a custom JavaScript interpreter (not a third-party library), and **Monaco Editor** for the code input panel.
+When I first read that, my honest reaction was skepticism. Proprietary models built for specific tools usually mean "we fine-tuned GPT-3.5 on some code data and gave it a brand name." That's the standard pattern. I've seen enough of those to develop a healthy distrust of the "custom model" pitch.
 
-The component structure it created:
-- `ExecutionEngine` — the JavaScript interpreter core
-- `CallStackVisualizer` — animated component showing function call stack state
-- `EventLoopPanel` — displays the event loop with running/idle state indicators
-- `WebAPIsPanel` — shows active setTimeout and fetch operations
-- `TaskQueuePanel` — separates macrotasks and microtasks in the display
-- `ExecutionControls` — next/previous/play/pause controls with keyboard shortcuts
+This model is different.
 
-These weren't dumped into a single file. They lived in separate directories with clear prop interfaces. The `ExecutionEngine` was properly abstracted from the UI components — meaning you could swap out the visualizer interface without touching the interpreter logic. That separation is exactly what you'd want if you planned to maintain this long-term.
+The output quality matches what I'd expect from the top-tier frontier models on coding tasks. But more than output quality alone — which can be mimicked with enough prompt engineering — the *reasoning* in Qwen Coder 1.0 shows something more intentional. When it chose Next.js for the JavaScript visualizer project, it explained that the routing requirements and planned component separation made Next.js a better fit than a plain React setup. That reasoning was correct. It aligned with how I would have made the same decision.
 
-Did it work perfectly on first run? Mostly. The Promises visualization had a visual bug where microtasks weren't clearing from the queue display correctly after execution. I mentioned this in the chat. One pass, fixed. The setTimeout sequencing in the event loop was accurate. The global execution context display — showing variable declarations being hoisted, function definitions being created — was clean and correct.
+When it picked Motion for animations, it mentioned bundle size considerations and the type of physics-based transitions the visualizer would need. When it chose a JavaScript interpreter approach over WebAssembly — a less obvious decision — it noted that the interpreter would give more granular execution tracing without the compilation overhead that WebAssembly would introduce at this scale.
 
-You're now looking at the foundation. If you've made it this far, good — because the most powerful feature of Coder IDE isn't Quest Mode, and we're about to get to it.
+These aren't the explanations of a model pattern-matching against the most common library in its training data. Something purpose-built for architectural decision-making is happening here.
+
+Right now, Qwen Coder 1.0 is free for trial users. That won't last — I want to be transparent about this. Coder's pricing hasn't been fully announced, and the current trial access is almost certainly a preview of what the paid tier will look like. I'd treat the current window as your opportunity to evaluate the tool at its ceiling, not as a permanent arrangement.
+
+That ceiling is genuinely high.
 
 ---
 
-## Repo Wiki: The Feature That Will Save Your Team 40 Hours Per Hire
+## Editor Mode vs Quest Mode — Two Different Tools in One IDE
 
-Nobody talks about Repo Wiki. Every review focuses on Quest Mode, which is flashier. But Repo Wiki is the feature I'm most excited to use in production.
+Coder ships with two distinct operating modes, and the distinction matters because they serve fundamentally different workflows. Treating them as the same tool would be like treating a drill and a drill press as interchangeable because they both spin.
 
-Repo Wiki analyzes your entire codebase — import chains, architectural patterns, component relationships, backend/frontend data flows — and generates comprehensive documentation automatically. One click.
+**Editor Mode** is familiar territory. Think VS Code with an AI layer built directly into the interface — not bolted on as an extension, but woven into the core workflow. You get intelligent code predictions, an integrated agent chat panel, real-time debugging assistance, and the ability to explore remote repositories without cloning them locally. The UI transfers immediately if you've spent any time in VS Code. The muscle memory is already there.
 
-What it produces:
-- Project introduction and purpose summary
-- Mermaid diagrams showing architecture and data flow sequences
-- Step-by-step explanation of how the backend and frontend process requests
-- Direct links to specific files and line numbers in the codebase
-- A sync option that regenerates documentation when code changes
+Editor Mode handles the things you'd expect from a modern AI IDE: answering questions about your existing code, helping debug a specific function, generating a component when you give it precise requirements, explaining why something isn't working. It's solid at all of these. But if that were all Coder offered, it would be entering a very crowded space against tools with years of head start and massive user bases.
 
-I ran this on the JavaScript visualizer project immediately after Quest Mode built it. The generated documentation was accurate — not just "here's a list of files" accurate, but architecturally accurate. It understood that `ExecutionEngine` fed state to the visualizer panels through React context. The Mermaid diagram showed that relationship correctly, with the sequence of a user action flowing through the execution controls, triggering the engine, and updating three separate visualization panels.
+**Quest Mode** is where Coder bets its identity.
 
-If you've ever joined a new project and spent three days reading code before making your first meaningful contribution, you understand why this matters. Repo Wiki compresses that onboarding window dramatically. For a team of five engineers, that's potentially forty hours of ramp-up time per new hire, gone.
+Activate Quest Mode and the paradigm shifts completely. You're no longer a developer using AI assistance — you're closer to a project manager delegating to an AI developer. You provide a goal described in natural language, as specific or as open-ended as you want. The AI doesn't immediately start writing code. It asks clarifying questions first. It proposes an architectural plan. It tells you which frameworks and libraries it intends to use and why. You approve, redirect, or push back.
 
-The sync feature is what makes it genuinely useful long-term. Documentation that automatically updates when code changes is something engineering teams have wanted forever. Whether it holds up at scale — across a 500,000-line production codebase with legacy debt — I haven't tested. For small-to-medium projects, it works. I'd trust it for any codebase under 50K lines without hesitation.
+Then it executes.
 
-Alright — that's the impressive part of the story. Now for the part most reviews skip.
+And "executes" means something literal here. Coder doesn't generate a code block and paste it into a chat window for you to copy elsewhere. It opens actual files. Creates directories. Writes code across multiple components simultaneously. Runs `npm install`. Starts a dev server. Checks that the application loads. Reports back on errors and resolves them without prompting. The entire development pipeline, handled autonomously.
+
+This is categorically different from chat-based code generation, and the difference isn't subtle.
 
 ---
 
-## The Real Talk: What Coder IDE Won't Advertise About Itself
+## Building the JavaScript Visualizer — What Actually Happened
 
-I've been genuinely positive about this tool. That makes this section more important, not less.
+This is the demonstration that convinced me Quest Mode is worth serious attention. I'm going to walk through it precisely because the process is where the value becomes concrete.
 
-**Quest Mode doesn't teach you anything.**
+**The goal:** Build an interactive JavaScript visualizer. Something that could take a code snippet, execute it step by step, and show what's happening at each stage — the global execution context being created, how the call stack grows and shrinks, how the event loop handles async operations, and how setTimeout callbacks and microtasks are queued and resolved in the correct order.
 
-This is the uncomfortable trade-off nobody says out loud. When you hand a project to Quest Mode and it comes back built, you didn't learn the architecture. You don't understand why Next.js was chosen over plain React. You don't know how the JavaScript interpreter handles closure scope or how Framer Motion's `useAnimation` hook coordinates with the state updates. If something breaks in production, you're debugging code you didn't write and don't fully understand.
+This is a genuinely complex UI engineering problem. You need a working JavaScript interpreter or parser. A visualization layer that can show nested stack frames changing in real time. Smooth animation to make the execution feel intuitive rather than jarring. A layout that keeps four simultaneous visualizations readable without turning into visual noise. And it needs to be accurate — if the event loop ordering is wrong, the tool teaches incorrect mental models.
 
-For experienced developers — people who already know how these systems work — this is a genuine productivity win. Quest Mode becomes an accelerant for knowledge you already have. But for developers early in their careers, I'd be cautious. Building things is how you learn to build things. The struggle of figuring out component architecture the wrong way, then refactoring it, teaches you something that watching AI build it correctly does not.
+I gave Quest Mode four sentences.
 
-I'm not saying don't use it. I'm saying be intentional about when.
+Something along the lines of: "Build a JavaScript code visualizer that shows execution line-by-line with animation. I want to see the global execution context, the call stack, the event loop, and async behavior with tasks and microtasks. Dark mode. Use a JS interpreter rather than WebAssembly."
 
-**The free tier will end, and the math will change.**
+Then Coder started asking clarifying questions.
 
-Alibaba is running a trial. The Qin model is sophisticated, the compute isn't free, and a business model has to emerge eventually. When pricing arrives, you'll need to decide whether the time savings justify the cost. That calculation is different for every developer and every team — but it's worth thinking about now, before you build Quest Mode into your workflow and then have to rip it out.
+First: which frontend framework? I said React. Second: which JavaScript features should the visualizer handle — promises, async/await, generator functions? I specified promises and async/await as the priority. Third: execution approach — true interpreter or simulated execution with a pre-traced AST? I said interpreter if stable, simulated if the interpreter would introduce flakiness at this scale.
 
-**One prediction I'll stand behind:** autonomous AI IDEs will be standard features in every major editor within two years. The competitive advantage won't be access to the tool — it'll be knowing how to prompt well, how to evaluate what the AI produces, and how to steer it when it goes sideways. The developers who stay curious about the systems underneath the abstractions will be the ones who use these tools best.
+Three clarifying questions. That was the entire conversation before the AI took over.
 
-The developers who treat Quest Mode as a replacement for understanding what they're building — that's a different story.
+Quest Mode produced a planning summary: Next.js as the framework (a good call for the routing and component separation it would need), Motion for animations, a custom execution engine using Acorn for AST parsing to give reliable traversal without the risks of live `eval()`, and a component breakdown that separated the visualizer into four distinct React components with a shared execution state flowing through context.
 
----
+I approved the plan.
 
-## Before and After: Concrete Numbers From Ten Days of Use
+For the next eight to nine minutes, I watched file creation logs scroll without touching anything. `/app/page.tsx`, `/components/CallStack.tsx`, `/components/EventLoop.tsx`, `/components/ExecutionContext.tsx`, `/components/CodeEditor.tsx` with syntax highlighting, `/lib/interpreter.ts` with the execution engine and AST traversal logic, animation configs using Motion's spring physics, CSS modules for the dark mode theme, TypeScript interfaces, shared constants. Package installation ran automatically. The dev server started.
 
-Let me give you specifics rather than vague impressions.
+I opened `localhost:3000`.
 
-**JavaScript Visualizer:** Built in approximately 10 minutes via Quest Mode. Manually, starting from scratch — Next.js setup, architecture decisions, the interpreter logic, Framer Motion integration — that's conservatively 3-4 hours for an experienced developer. Quest Mode compressed it to 10 minutes plus 5 minutes of clarifying questions.
+The visualizer was there. Running. I dropped in a simple async function — a mix of `setTimeout` callbacks and a `Promise.resolve().then()` chain designed to test whether the execution order was correct — and hit Play. The code editor highlighted the active line as execution moved through it. The execution context panel showed variable declarations being created in the right order. The call stack animated additions and removals with smooth spring transitions. The event loop queue displayed the setTimeout callback waiting in the macrotask queue while the promise callback cleared from the microtask queue first — the correct priority order.
 
-**Documentation via Repo Wiki:** Generated comprehensive docs for the visualizer project in about 4 minutes. The Mermaid architecture diagram alone would have taken 30 minutes to draw and maintain manually.
+The execution sequence was right. The animations were smooth. The dark mode UI was clean and intentional, not "dark mode applied as an afterthought with gray `#333` backgrounds everywhere."
 
-**Code quality:** I reviewed the generated code through my normal process. The architecture was solid. Component separation was clean. One visual bug found — the Promises queue display — fixed in one chat pass.
-
-**Setup time:** Comparable to installing VS Code. Download, install, open. If you know VS Code, you know how to use Editor Mode immediately. Quest Mode takes one actual build to understand the workflow.
-
-The quick wins are real. The long-term question — whether you maintain the understanding of what you've built — requires deliberate effort on your part. The tool won't do that part for you.
+I sat there for a moment just looking at it.
 
 ---
 
-## How to Get the Most From Your First Quest Mode Build
+## The Part Nobody Warns You About
 
-The best way to understand Quest Mode is to give it a real project — not a toy example, but something complex enough that you'd normally spend meaningful time on architecture decisions.
+That's the impressive story. Here's the real talk — and I think this section matters more than the demo.
 
-Start with a JavaScript visualizer, a data processing dashboard, or a REST API explorer. These are scoped enough to complete in one session, complex enough to showcase Quest Mode's architectural decision-making. Avoid mission-critical production features for your first run — not because the code quality is bad, but because you want to evaluate the output without time pressure.
+**Quest Mode is powerful. It is not magic.**
 
-When Quest Mode asks clarifying questions, answer specifically. Vague answers produce vague architecture. "I want React" is better than "whatever works best." "I want the interpreter in a separate module" is better than "good code quality."
+The quality of your output tracks directly with the quality of your prompt. My four-sentence specification for the JavaScript visualizer was actually fairly precise — I'd thought through what I needed before typing it. When I tested Quest Mode with vaguer prompts ("build me a project tracking dashboard"), the output was functional but generic. The AI made reasonable guesses about what "project tracking" meant, and its guesses were fine but not interesting. The gap between a great Quest Mode output and a mediocre one is almost entirely in the specificity of the input.
 
-**Read the specification document before you say go.** This is the most important step most people skip. The spec is your chance to course-correct before any code gets written. If the architecture looks wrong, say so. If the component breakdown doesn't match your mental model, push back. The AI adjusts well to specific feedback at this stage.
+Garbage in, mediocre out still applies. The wrapper changes. The law doesn't.
 
-After the build completes, run Repo Wiki immediately — before you modify anything. That documentation becomes your map for everything that follows. And when you hit a bug (you will), resist the urge to just tell the AI to fix it without reading the error first. Trace it back to the component. Understand what went wrong. Then ask for the fix. That's how you maintain the understanding that Quest Mode doesn't naturally give you.
+The autonomous execution also runs into real-world friction. On one project during my testing period, Coder installed a specific dependency version that had a breaking change in its configuration API from the previous major version, then generated code written against the old API. The application failed silently in ways that weren't obvious from the error output. A developer who knew that library well would have noticed the npm version warning immediately. The AI needed additional iterations to identify and correct it. This got resolved — but it's a real category of problem that autonomous execution doesn't eliminate.
+
+Comparing Coder to Cursor honestly: Cursor has more polish in Editor Mode. The autocomplete is faster, the suggestions feel more contextually aware of what you were about to type, and Cursor's codebase indexing is exceptional for existing projects — it can answer questions about your project's structure and suggest changes that account for patterns already established in the code.
+
+Quest Mode is where Coder has no real competition in Cursor right now. The ability to hand off a complete task — description to running application, autonomously — is categorically different from Cursor's Composer feature, which still requires more manual direction and doesn't actually run the code on its own. These tools aren't competing for the same moment in your workflow. If you're writing code most of the day in an existing codebase, Cursor is probably the right choice. If you're frequently starting new things and want the scaffolding handled so you can focus on the domain-specific parts, Coder's Quest Mode changes the math significantly.
+
+One more honest thing: the autonomous execution model means you should pay attention to what the AI is building while it builds. This isn't "fire and forget." The architectural decisions Quest Mode makes are decisions you'll live with afterward. It installs dependencies you'll maintain. It makes component structure choices that become load-bearing as the project grows. The planning approval step isn't a formality — it's the moment where your judgment matters most. Read the spec carefully before saying go.
 
 ---
 
-## The Question That Stayed With Me
+## RPO Wiki — The Feature That Surprised Me Most
 
-I came back to the JavaScript visualizer I'd watched build itself in ten minutes. Clicked through the execution steps. Watched the call stack animate as a recursive function pushed frames. Saw the microtask queue drain before macrotasks executed — accurate, properly ordered, visually clean.
+I expected Quest Mode to be the headline. The RPO Wiki caught me off guard.
 
-Genuinely impressive. And I had a complicated reaction to it.
+RPO stands for Repository Project Overview. You activate it on any project, and Coder analyzes the entire codebase to generate structured documentation. Not just bullet-point file summaries. Full architectural documentation: a project introduction, core engine architecture explained in plain language, Mermaid diagrams illustrating component and module structure, sequence diagrams showing how the frontend and backend interact for specific operations, flow diagrams for key processes, and written descriptions of each major component with direct file references and line numbers.
 
-Impressed, yes. But also aware that I was looking at something I hadn't built in any meaningful sense. The prompt came from me. The judgment calls — which framework, which interpreter approach, how to structure the components — came from the AI.
+I tested it on the JavaScript visualizer project immediately after Quest Mode built it — so I was reading AI-generated documentation for an AI-generated codebase. Meta, but useful. The Mermaid diagrams accurately reflected the component relationships I could verify in the actual code. The sequence diagrams showed the correct data flow between the code editor, the interpreter engine, and the four visualization panels. The written descriptions weren't just paraphrasing what the code was doing — they described architectural intent, which is the hardest part of documentation to write because it's usually only inside the original developer's head.
 
-Which raised the question I'm still sitting with: as AI IDEs get better, what does it mean to build something?
+For knowledge transfer, this feature is genuinely valuable. If you've ever had to get a developer up to speed on a complex existing codebase and realized the available documentation was incomplete, outdated, or written by someone who'd forgotten which parts were confusing to newcomers — you understand the problem RPO addresses. The documentation that should exist, the one that explains *why* things are structured the way they are, is usually nowhere to be found.
 
-The developers who'll still be indispensable five years from now are the ones engaging with that question seriously. The ones staying curious about the systems underneath the abstractions. The ones using tools like Coder as an accelerant rather than a replacement.
+RPO generates that documentation. And it syncs — you can regenerate it as code changes, which is where most documentation strategies collapse entirely. Manual docs drift on day two. RPO keeps up.
 
-Give Coder IDE ten days. Try Quest Mode on a real project. Run Repo Wiki on a codebase you're already maintaining. See what changes.
+The honest limitation: on very large repositories with thousands of files, the architectural descriptions become more surface-level. The feature works best on projects with clear separation of concerns and under a few hundred files. For personal projects, startup-scale codebases, and small-team projects, that's not a meaningful constraint. For a 500,000-line enterprise monolith with fifteen years of accumulated debt — I'd test it carefully before committing.
+
+---
+
+## What the Results Actually Looked Like
+
+Let me be specific about outcomes rather than impressions.
+
+The JavaScript visualizer took approximately fifteen minutes of my active involvement across the entire build: four minutes writing and refining the initial prompt, three minutes answering clarifying questions and reviewing the proposed architecture, eight minutes watching the build and running the first functional test. The application worked correctly on the first run. I spent another twenty minutes afterward adding a "step back" button for the visualizer — a feature I wanted that the AI hadn't included — which took that long because I was working in animation coordination logic that was new to me.
+
+Total developer time for a production-quality interactive tool: under forty minutes. My realistic estimate for building the same thing from scratch, manually, including framework setup, Acorn AST integration, Motion animation coordination, and the component architecture decisions: two to three days minimum, probably longer given I'd need to study the Acorn API properly.
+
+The code quality held up on review. Component separation was logical. The interpreter engine had comments that described intent rather than just restating what the code was doing. Animation variables were named and centralized rather than scattered as magic numbers. I would not have been embarrassed to show this to a senior developer — which, in a meaningful sense, it partly was.
+
+Where Quest Mode didn't save me time: projects with deep domain-specific technical requirements where correctness is subtle and can't be verified by running the code. When I experimented with using it for a security tooling project involving specific network packet analysis patterns, the generated code was structurally sound but technically wrong in ways that would have caused silent failures in production. That's a category of problem that requires domain expertise the AI doesn't have and can't synthesize from a prompt. It's not going anywhere.
+
+The framing I'd use: Quest Mode is exceptional for projects where the challenge is integration, UI architecture, and getting components to work together correctly. It's weaker for projects where the challenge is domain-specific correctness that only a specialist would recognize as wrong.
+
+---
+
+## Where This Actually Goes From Here
+
+I've been doing this long enough to have seen a lot of "the future of coding" announcements that turned out to be marginally better autocomplete with a larger marketing budget. Coder doesn't feel like that.
+
+The autonomous execution model — where the AI doesn't just write code but runs it, encounters errors, adapts, and continues — changes the development feedback loop in a fundamental way. Right now, that capability is good enough to be genuinely useful on real projects. If the Qwen Coder team keeps improving the underlying model at the rate they're describing, the experience gap between AI-autonomous development and traditional from-scratch development is going to narrow faster than most developers are prepared for.
+
+That creates a question worth sitting with seriously: if an AI can reliably handle the scaffolding, boilerplate, and standard integration work, what should engineers be spending their time on?
+
+My current answer — and I've thought about this for the better part of these ten days — is the decisions that require real-world context, ethical judgment, domain expertise that can't be encoded in a prompt, and the ability to ask "but should we build this at all?" Quest Mode is nowhere near replacing those judgment calls. It's also not trying to. What it is replacing is the forty-five minutes I spend creating a folder structure I've created forty-five times before.
+
+The developers who'll still be indispensable five years from now aren't the ones avoiding these tools out of principle. They're the ones staying curious about the systems underneath the abstractions — using Quest Mode as an accelerant for knowledge they already have, rather than a replacement for building that knowledge in the first place.
+
+Here's the challenge I'd leave you with: take one task you've been putting off because the setup overhead felt too high. A small tool. A visualizer. An internal utility. Something with clear enough requirements that you could describe it in four sentences. Give it to Quest Mode with a deliberate, specific prompt, read the planning summary carefully before approving, and see what comes back.
 
 Then go understand what it built.
+
+You might find yourself going to make coffee and coming back to something you didn't expect.
 
 ---
 
