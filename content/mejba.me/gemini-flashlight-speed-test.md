@@ -1,7 +1,8 @@
 **BRAND:** mejba.me
 **TITLE:** I Tested Gemini 3.1 Flashlight — Google's Speed Beast
 **SLUG:** gemini-flashlight-speed-test
-**TAGS:** AI Models, Developer Tools, Gemini 3.1 Flashlight, AI Benchmarks, Review
+**TAGS:** AI Models, Developer Tools, Gemini 3.1 Flashlight, AI Benchmarks, 
+
 
 ---
 
