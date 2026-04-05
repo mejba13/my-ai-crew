@@ -721,12 +721,12 @@ Using the selected content type structure, write the complete article following 
 ```
 **BRAND:** [website name]
 **TITLE:** [SEO-optimized, under 60 characters]
+**META TITLE:** [Custom title for search engines, max 60 characters]
 **SLUG:** [3-5 words, lowercase, hyphens]
 **PRIMARY KEYWORD:** [exact target phrase]
 **SECONDARY KEYWORDS:** [2-3 related terms]
 **META DESCRIPTION:** [150-160 characters — primary keyword, specific benefit, subtle CTA]
-**TAGS:** [Exactly 5 tags: 2 broad + 2 specific + 1 format]
-**CONTENT TYPE:** [Deep Dive / Review / Comparison / Opinion / Case Study / News Analysis]
+**TAGS:** [Exactly 5 tags]
 **CONTENT CLUSTER:** [Which cluster this belongs to]
 **TRANSFORMATION GOAL:** [One sentence — what the reader gains]
 
@@ -1010,12 +1010,12 @@ Ask ONE clarifying question at a time:
 ```
 **BRAND:** xcybersecurity.io
 **TITLE:** WordPress Security in 2026: Threats Your Site Faces Now
+**META TITLE:** WordPress Security Threats 2026: Protect Your Site Now
 **SLUG:** wordpress-security-threats-2026
 **PRIMARY KEYWORD:** WordPress security vulnerabilities 2026
 **SECONDARY KEYWORDS:** WordPress malware detection, WooCommerce security, plugin vulnerability scanning
 **META DESCRIPTION:** The 5 WordPress threats hitting sites hardest in 2026 — from plugin backdoors to AI-assisted brute force. Learn how to audit and protect your site today.
 **TAGS:** WordPress Security, Vulnerability Assessment, Website Protection, OWASP, Security Guide
-**CONTENT TYPE:** Deep Dive
 **CONTENT CLUSTER:** Web Application Security
 **TRANSFORMATION GOAL:** After reading, the reader will be able to audit their WordPress site for the 5 most dangerous 2026 attack vectors and implement specific defenses for each.
 

@@ -57,12 +57,12 @@ Every generated post follows this exact structure:
 ```
 **BRAND:** [website]
 **TITLE:** [< 60 chars, primary keyword in first half]
+**META TITLE:** [Custom title for search engines, max 60 characters]
 **SLUG:** [3-5 words, lowercase, hyphenated]
 **PRIMARY KEYWORD:** [exact target phrase]
 **SECONDARY KEYWORDS:** [2-3 related terms]
 **META DESCRIPTION:** [150-160 characters]
-**TAGS:** [Exactly 5: 2 broad + 2 specific + 1 format]
-**CONTENT TYPE:** [Deep Dive / Review / Comparison / Opinion / Case Study / News Analysis]
+**TAGS:** [Exactly 5 tags]
 **CONTENT CLUSTER:** [cluster name]
 **TRANSFORMATION GOAL:** [one sentence]
 
