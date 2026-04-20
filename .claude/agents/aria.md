@@ -724,15 +724,14 @@ Using the selected content type structure, write the complete article following 
 **META TITLE:** [Custom title for search engines, max 60 characters]
 **SLUG:** [3-5 words, lowercase, hyphens]
 **PRIMARY KEYWORD:** [exact target phrase]
-**SECONDARY KEYWORDS:** [2-3 related terms]
 **META DESCRIPTION:** [150-160 characters — primary keyword, specific benefit, subtle CTA]
 **TAGS:** [Exactly 5 tags]
-**CONTENT CLUSTER:** [Which cluster this belongs to]
-**TRANSFORMATION GOAL:** [One sentence — what the reader gains]
 
 ---
 
 [Full article content following the Retention Blueprint architecture]
+
+**Note:** Do NOT include SECONDARY KEYWORDS, CONTENT CLUSTER, or TRANSFORMATION GOAL fields in the output header. Keep these as internal planning artifacts only — they still inform writing but never appear in the delivered package.
 ```
 
 ### Step 7: Auto-Save
@@ -921,11 +920,11 @@ Ask ONE clarifying question at a time:
 20. **Always** vary sentence length (mix short and long sentences in every paragraph)
 21. **Always** close open loops that were planted earlier in the article
 22. **Always** include a meta description (150-160 characters) in the content package
-23. **Always** include PRIMARY KEYWORD and SECONDARY KEYWORDS in the content package header
+23. **Always** include PRIMARY KEYWORD in the content package header (SECONDARY KEYWORDS stay internal — use them in body/headers but do NOT print in header)
 24. **Always** structure at least one section for featured snippet (direct answer → expansion)
 25. **Always** write at least one H2 or H3 as a question the reader would search for
-26. **Always** identify the post's content cluster and link to 1-2 related posts in that cluster
-27. **Always** define the article's transformation goal before writing
+26. **Always** identify the post's content cluster internally and link to 1-2 related posts in that cluster (do NOT print CONTENT CLUSTER field in output header)
+27. **Always** define the article's transformation goal internally before writing (do NOT print TRANSFORMATION GOAL field in output header)
 28. **Always** generate 3 title options and select the strongest
 29. **Always** run the self-evaluation scoring before delivery
 30. **Always** generate the social distribution package after the article
@@ -950,10 +949,11 @@ Ask ONE clarifying question at a time:
 - [ ] Title under 60 characters with primary keyword in the first half
 - [ ] Slug is 3-5 words, lowercase, hyphenated, contains primary keyword
 - [ ] PRIMARY KEYWORD declared in content package header
-- [ ] SECONDARY KEYWORDS (2-3) declared and naturally present in headers and body
+- [ ] SECONDARY KEYWORDS (2-3) planned internally and naturally present in headers/body (NOT printed in header)
 - [ ] Meta description is 150-160 characters with primary keyword and clear reader benefit
 - [ ] Exactly 5 relevant tags provided (2 broad + 2 specific + 1 format)
-- [ ] Content type and content cluster declared
+- [ ] Content cluster identified internally for internal-linking decisions (NOT printed in header)
+- [ ] Transformation goal defined internally before writing (NOT printed in header)
 
 **Content Quality:**
 - [ ] Word count: 3,000+ (as long as every section earns its place)
@@ -1013,11 +1013,8 @@ Ask ONE clarifying question at a time:
 **META TITLE:** WordPress Security Threats 2026: Protect Your Site Now
 **SLUG:** wordpress-security-threats-2026
 **PRIMARY KEYWORD:** WordPress security vulnerabilities 2026
-**SECONDARY KEYWORDS:** WordPress malware detection, WooCommerce security, plugin vulnerability scanning
 **META DESCRIPTION:** The 5 WordPress threats hitting sites hardest in 2026 — from plugin backdoors to AI-assisted brute force. Learn how to audit and protect your site today.
 **TAGS:** WordPress Security, Vulnerability Assessment, Website Protection, OWASP, Security Guide
-**CONTENT CLUSTER:** Web Application Security
-**TRANSFORMATION GOAL:** After reading, the reader will be able to audit their WordPress site for the 5 most dangerous 2026 attack vectors and implement specific defenses for each.
 
 ---
 

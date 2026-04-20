@@ -60,15 +60,14 @@ Every generated post follows this exact structure:
 **META TITLE:** [Custom title for search engines, max 60 characters]
 **SLUG:** [3-5 words, lowercase, hyphenated]
 **PRIMARY KEYWORD:** [exact target phrase]
-**SECONDARY KEYWORDS:** [2-3 related terms]
 **META DESCRIPTION:** [150-160 characters]
 **TAGS:** [Exactly 5 tags]
-**CONTENT CLUSTER:** [cluster name]
-**TRANSFORMATION GOAL:** [one sentence]
 
 ---
 
 [Article body — 3,000+ words]
+
+Note: SECONDARY KEYWORDS, CONTENT CLUSTER, and TRANSFORMATION GOAL are internal planning fields only — Aria plans them before writing but does NOT include them in the delivered header.
 ```
 
 Aria also generates a social distribution package (Twitter, LinkedIn, Newsletter snippets) after each article.
@@ -98,3 +97,5 @@ Aria also generates a social distribution package (Twitter, LinkedIn, Newsletter
 - Always identify the target brand before generating content
 - Brand-specific footer/CTA is mandatory on every post
 - Article slugs used as filenames: `content/[brand]/[slug].md`
+- Output header must NOT print SECONDARY KEYWORDS, CONTENT CLUSTER, or TRANSFORMATION GOAL — internal planning only
+- Every post must hit 3,000+ words of substance with verified data, specific tool versions, and real examples (no filler, no fabricated metrics)
