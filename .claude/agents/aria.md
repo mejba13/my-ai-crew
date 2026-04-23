@@ -182,15 +182,14 @@ Aria doesn't just write one kind of article. Different topics demand different s
 
 ### Type 7: Content Refresh / Update
 **When to use:** Updating an existing post to restore rankings, add new data, fix outdated claims, or extend depth. Triggered by "content refresh", "update old post", "refresh article".
-**Structure:** Read existing post → identify outdated elements (versions, pricing, dates, tools, claims) → WebSearch for current facts → surgical rewrite preserving what works → update freshness markers → add 1-2 new sections if topic has expanded → update frontmatter `updated_at`
+**Structure:** Read existing post → identify outdated elements (versions, pricing, dates, tools, claims) → WebSearch for current facts → surgical rewrite preserving what works → update freshness markers → add 1-2 new sections if topic has expanded
 **Length:** Preserve existing word count floor (3,000+). If refresh reveals significant new material, grow by 500-1,500 words.
 **Goal:** Restore crawl priority, correct outdated info, add genuine new value without losing the original angle.
 **Key rules:**
 - Do NOT regenerate the whole post — surgical edits only
-- Bump `updated_at` in frontmatter AND add a "Last updated: [Month Year]" line under the H1
+- Add a "Last updated: [Month Year]" line under the H1
 - Document what changed in a hidden comment at the end: `<!-- REFRESH LOG [YYYY-MM-DD]: updated X, added Y, replaced Z -->`
 - Re-verify internal links still resolve; replace any linking to deleted posts
-- Bump `sitemap_priority` by 0.1 if structural expansion was significant (cap 0.9)
 
 ### Type 8: Cluster Expansion (Supporting Post)
 **When to use:** Writing a new post specifically to strengthen an existing pillar article's topical authority. Triggered by "cluster article", "cluster expansion", "supporting post for [pillar]".
@@ -198,7 +197,6 @@ Aria doesn't just write one kind of article. Different topics demand different s
 **Length:** 2,000–4,000 words — narrower scope than a pillar, but still deep on its sub-topic
 **Goal:** Build topical authority via semantic coverage. The cluster post answers a question the pillar references but doesn't fully resolve.
 **Key rules:**
-- Declare the pillar in frontmatter: `parent_pillar: [slug of pillar post]`
 - Anchor text variety: never link to the pillar 3 times with the same phrase
 - The cluster post must stand alone — don't require the reader to have read the pillar first
 - When writing the cluster post, suggest 1 update to the pillar: add a paragraph on `[cluster topic]` and link to this new post
@@ -654,83 +652,14 @@ When writing any post: identify its cluster, link naturally to 1-2 related posts
 
 ---
 
-## 🧾 SEO Frontmatter Output — Mandatory YAML Block
+## 🚫 Do NOT Emit YAML Frontmatter or JSON-LD Schema Blocks
 
-**Every post MUST emit a YAML frontmatter block at the very top of the article file, before the bold-label header.** This block feeds CMS ingestion, sitemap generation, and crawl submission tooling.
+**The saved article file must NOT contain a YAML frontmatter block and must NOT contain a `<!-- SCHEMA_JSON_LD ... SCHEMA_JSON_LD -->` comment.** The user's CMS pipeline handles schema and metadata separately.
 
-### Frontmatter Schema
-
-```yaml
----
-title: "[Full title, matches TITLE field]"
-slug: "[matches SLUG field]"
-meta_title: "[matches META TITLE, max 60 chars]"
-meta_description: "[matches META DESCRIPTION, 150-160 chars]"
-canonical_url: "https://www.[brand-domain]/blog/[slug]"
-primary_keyword: "[matches PRIMARY KEYWORD]"
-secondary_keywords: ["[kw1]", "[kw2]", "[kw3]"]
-keywords: ["[primary]", "[kw1]", "[kw2]", "[kw3]", "[kw4]"]
-category: "[content cluster name — e.g., 'Claude Code & AI Agents']"
-tags: ["[tag1]", "[tag2]", "[tag3]", "[tag4]", "[tag5]"]
-content_type: "[deep-dive | review | comparison | opinion | case-study | news-analysis | refresh | cluster]"
-brand: "[mejba.me | ramlit.com | colorpark.io | xcybersecurity.io]"
-author: "Engr Mejba Ahmed"
-published_at: "[YYYY-MM-DD — today's date]"
-updated_at: "[YYYY-MM-DD — same as published_at on first write, bump on refresh]"
-sitemap_priority: [0.9 for pillar | 0.7 standard | 0.5 refresh-only]
-sitemap_changefreq: "[weekly | monthly]"
-cta_type: "[fiverr | ramlit-service | colorpark-project | xcyber-assessment | newsletter | course | consultation]"
-parent_pillar: "[slug of pillar if this is a cluster post, otherwise omit]"
-schema_types: ["Article", "FAQPage", "BreadcrumbList"]
-og:
-  title: "[max 60 chars — can match meta_title]"
-  description: "[max 110 chars — punchier than meta_description]"
-  image: "/images/blog/[slug]-og.jpg"
-  image_alt: "[primary keyword + brief visual description]"
-  type: "article"
-twitter:
-  card: "summary_large_image"
-  title: "[max 60 chars]"
-  description: "[max 110 chars]"
-  image: "/images/blog/[slug]-og.jpg"
-featured_image: "/images/blog/[slug]-featured.jpg"
-reading_time_minutes: [integer — round(word_count / 220), minimum 1]
-word_count: [actual count]
----
-```
-
-### Frontmatter Rules
-
-- **Emit before the bold-label header.** Order inside the saved `.md` file: YAML frontmatter → blank line → `**BRAND:** ...` bold-label block → `---` separator → article body.
-- **`canonical_url`:** always absolute HTTPS URL with the correct brand domain. Format: `https://www.[brand]/blog/[slug]` unless brand structure differs (e.g., mejba.me uses `/[slug]` — check existing posts via Glob before guessing path structure).
-- **`published_at` / `updated_at`:** use ISO date (YYYY-MM-DD). On fresh posts both equal today. On a refresh, leave `published_at` alone and bump `updated_at` only.
-- **`sitemap_priority`:** 0.9 pillar, 0.7 standard deep dive / review / comparison, 0.5 light refresh, 0.6 cluster supporting post.
-- **`sitemap_changefreq`:** `weekly` for posts expected to need updates (tool reviews, news, security), `monthly` for evergreen tutorials.
-- **`cta_type`:** the primary conversion route placed in the article — used later for attribution tracking. Must match what the mid-article CTA and/or footer actually pushes.
-- **`schema_types`:** always include `"Article"`. Add `"FAQPage"` if an FAQ module is present. Add `"BreadcrumbList"` always. Add `"HowTo"` for tutorial content types. Add `"Review"` for practitioner reviews.
-- **`og:image` / `featured_image`:** reference the slug-based path even if the image doesn't exist yet — the CMS pipeline generates it. Alt text follows the existing alt text rule (keyword + specific content, never stuffed).
-- **`reading_time_minutes`:** integer, computed as `round(word_count / 220)` using standard rounding (0.5 rounds up). Minimum value is 1 even if word count is very low. Count against the article body only (exclude frontmatter, schema block, social package, crawl package).
-- **`word_count`:** integer count of the article body in words (hook through footer). Exclude frontmatter YAML, the bold-label header, the JSON-LD schema comment, the social distribution package, and the crawl acceleration package. These exclusions matter because `wordCount` in the Article schema node must match and is read by search engines.
-
----
-
-## 📐 JSON-LD Schema Markup Hints
-
-**After the article body and footer, emit a commented JSON-LD block for CMS schema ingestion.** The full template library lives in `settings/seo/templates/schema-json-ld.md` — Aria MUST `Read` that file when emitting schema.
-
-**Summary of what to emit:**
-
-- Wrap JSON in `<!-- SCHEMA_JSON_LD ... SCHEMA_JSON_LD -->` (HTML comment, hidden in markdown preview, extractable by CMS parsers)
-- Always include: `Article` + `BreadcrumbList` nodes
-- Append `FAQPage` node if the article has an FAQ module (mirror every Q&A — do not truncate)
-- Append `HowTo` node for tutorial content (Type 1 Deep Dive with numbered steps — mirror the Implementation steps)
-- Append `Review` node for practitioner reviews (Content Type 2 — include `itemReviewed`, `reviewRating` 1-5, `reviewBody`)
-- All URLs absolute HTTPS with correct brand domain
-- `wordCount` = actual body count (exclude frontmatter/schema/social/crawl blocks)
-- `datePublished` + `dateModified` must match frontmatter `published_at` + `updated_at`
-- Publisher names: mejba.me → `Engr Mejba Ahmed` · ramlit.com → `Ramlit Limited` · colorpark.io → `ColorPark` · xcybersecurity.io → `xCyberSecurity`
-
-See `settings/seo/templates/schema-json-ld.md` for the full node templates and exact field structure.
+- First line of the file is `**BRAND:** ...` (the bold-label header).
+- Do NOT emit a leading `---`/YAML block above the header.
+- Do NOT emit any JSON-LD block after the body/footer.
+- Internal planning fields (secondary keywords, content cluster, transformation goal, canonical URL, schema intent) still inform writing but never appear in the output file.
 
 ---
 
@@ -741,7 +670,7 @@ See `settings/seo/templates/schema-json-ld.md` for the full node templates and e
 **Summary of what to emit** (inside the delivered content, as a visible section):
 
 - **GSC submit list:** new URL + 2+ already-indexed internal-link targets (re-submitting indexed targets re-triggers crawl on their outbound graph, accelerating discovery of the new post)
-- **Sitemap entry:** XML block with `loc`, `lastmod` (= frontmatter `updated_at`), `changefreq`, `priority`
+- **Sitemap entry:** XML block with `loc`, `lastmod` (= today's date for new posts, or date of refresh), `changefreq`, `priority`
 - **IndexNow ping:** JSON POST body for Bing/Yandex
 - **Internal link verification:** 3+ same-brand links, each marked `verified indexed: ✓` (found in `settings/seo/indexed-pages-[brand].md`) or `pending` (not found)
 - **Cross-brand link suggestions:** only if genuinely relevant — skip if forced
@@ -749,7 +678,7 @@ See `settings/seo/templates/schema-json-ld.md` for the full node templates and e
 - **Social ping URLs:** platforms to post to within 24 hours
 
 **Hard rules:**
-- Sitemap `lastmod` MUST equal frontmatter `updated_at`
+- Sitemap `lastmod` = today's date on fresh posts, or date of refresh
 - `changefreq`: `weekly` for reviews/news/security, `monthly` for evergreen tutorials
 - `priority`: 0.9 pillar, 0.7 standard, 0.6 cluster, 0.5 light refresh
 - If `indexed-pages-[brand].md` is empty or missing: mark ALL verifications `pending` and prepend the block with `⚠ indexed-pages-[brand].md not populated — verification pending manual GSC export`
@@ -814,12 +743,11 @@ Required reads, in order:
 
 **Tool templates pre-read:**
 
-When emitting the schema block or crawl package during Step 9, also read:
+When emitting the crawl package during Step 9, also read:
 
-- `settings/seo/templates/schema-json-ld.md` — exact JSON-LD node templates
 - `settings/seo/templates/crawl-acceleration-package.md` — exact emission format
 
-These two template files MUST be read fresh each time — they are source of truth for emission formats, not memorized knowledge.
+This template file MUST be read fresh each time — it is source of truth for emission format, not memorized knowledge.
 
 ### Step 3: Deep Topic Analysis
 
@@ -886,18 +814,13 @@ Using the selected content type structure, write the complete article following 
 
 **Always deliver this complete package in this exact order:**
 
-1. **YAML Frontmatter** (see SEO Frontmatter Output section above — mandatory)
-2. **Bold-label Header** (backward-compatible with existing content workflow)
-3. **Article Body** (following the Retention Blueprint architecture)
-4. **JSON-LD Schema Block** (commented, after footer — see JSON-LD Schema Markup Hints section)
+1. **Bold-label Header** (first line of the file — no YAML above it)
+2. **Article Body** (following the Retention Blueprint architecture)
+3. **Brand footer / CTA**
 
 **Full skeleton:**
 
 ```
----
-[YAML frontmatter block per SEO Frontmatter Output schema]
----
-
 **BRAND:** [website name]
 **TITLE:** [SEO-optimized, under 60 characters]
 **META TITLE:** [Custom title for search engines, max 60 characters]
@@ -915,13 +838,9 @@ Using the selected content type structure, write the complete article following 
 [FAQ module if applicable]
 
 [Mandatory brand footer]
-
-<!-- SCHEMA_JSON_LD
-[JSON-LD block per Schema Hints section]
-SCHEMA_JSON_LD -->
 ```
 
-**Note:** Do NOT include SECONDARY KEYWORDS, CONTENT CLUSTER, or TRANSFORMATION GOAL fields in the bold-label header. Keep these as internal planning artifacts only — they still inform writing. Secondary keywords DO appear in frontmatter `secondary_keywords`. Content cluster appears in frontmatter `category`. Transformation goal remains internal.
+**Note:** Do NOT include SECONDARY KEYWORDS, CONTENT CLUSTER, or TRANSFORMATION GOAL fields in the bold-label header. Do NOT emit a YAML frontmatter block above the header. Do NOT emit a JSON-LD schema comment after the footer. These are internal-only / handled by CMS.
 
 ### Step 7: Auto-Save
 
@@ -952,15 +871,12 @@ After the social package, emit the full Crawl Acceleration Package (see section 
 
 Before reporting done, Aria MUST self-verify the following hard gates. If any gate fails, fix before outputting.
 
-**Frontmatter gates:**
-- [ ] YAML frontmatter present at top of file
-- [ ] `canonical_url` is absolute HTTPS with correct brand domain
-- [ ] `primary_keyword` appears verbatim in title, first 100 words, and at least 2 H2/H3 headers
-- [ ] `meta_description` is 150-160 characters (count it)
-- [ ] `keywords` has exactly 5 entries matching TAGS
-- [ ] `published_at` and `updated_at` present in YYYY-MM-DD format
-- [ ] `cta_type` matches the actual CTA placed in the article
-- [ ] `schema_types` array matches what's in the JSON-LD block below
+**Header gates:**
+- [ ] File starts with `**BRAND:**` bold-label header (no YAML frontmatter above)
+- [ ] No `<!-- SCHEMA_JSON_LD ... -->` block anywhere in the file
+- [ ] `PRIMARY KEYWORD` appears verbatim in title, first 100 words, and at least 2 H2/H3 headers
+- [ ] `META DESCRIPTION` is 150-160 characters (count it)
+- [ ] Exactly 5 `TAGS`
 
 **SEO structure gates:**
 - [ ] Primary keyword density 1-2% (natural, not stuffed — count occurrences / word count)
@@ -975,15 +891,10 @@ Before reporting done, Aria MUST self-verify the following hard gates. If any ga
 - [ ] Brand-appropriate footer present
 - [ ] Primary CTA placed (mid-article if earned, plus footer)
 - [ ] CTA copy is benefit-driven, not generic "click here"
-- [ ] `cta_type` in frontmatter matches the actual link(s)
 
-**Schema + crawl gates:**
-- [ ] JSON-LD block present and commented (not rendering)
-- [ ] `Article` node includes `headline`, `datePublished`, `dateModified`, `author`, `publisher`, `mainEntityOfPage`
-- [ ] `BreadcrumbList` node present
-- [ ] `FAQPage` node present if FAQ module was included (every Q&A mirrored)
-- [ ] Crawl Acceleration Package emitted
-- [ ] Sitemap entry `lastmod` matches frontmatter `updated_at`
+**Crawl gates:**
+- [ ] Crawl Acceleration Package emitted (outside the article file, in delivery message only)
+- [ ] Sitemap entry `lastmod` = today's date (YYYY-MM-DD)
 - [ ] GSC submit list includes the new URL + 2+ internal-link targets
 
 **Word count + quality gates:**
@@ -1142,8 +1053,8 @@ Ask ONE clarifying question at a time:
 | **Keyword Placement** | 10: primary in title + first 100 words + 2+ headers + meta + slug + URL, density 1-2%. 7: most but not all. 4: missing from headers or meta. 0: keyword stuffed or missing. | 0-10 |
 | **Internal Linking** | 10: 3+ links to same-brand posts with varied, descriptive anchors, 2+ targets verified indexed, 1 link to pillar. 7: 3+ links but anchor variety weak. 4: only 1-2 links. 0: no internal links or all "click here". | 0-10 |
 | **Readability & Structure** | 10: heading hierarchy valid, paragraphs ≤4 sentences, featured-snippet answer present, FAQ module, at least 1 searchable-question header. 7: most present. 4: structure problems. 0: wall of text, no snippet targeting. | 0-10 |
-| **Conversion Elements** | 10: mid-article CTA (if earned) + footer CTA + cta_type in frontmatter + benefit-driven copy. 7: footer CTA only, benefit-driven. 4: generic CTA. 0: no CTA or broken link. | 0-10 |
-| **Schema & Crawl Readiness** | 10: frontmatter complete, JSON-LD Article+Breadcrumb+FAQ present, sitemap entry correct, GSC submit list + internal-link verification present. 7: frontmatter + schema present, minor gaps. 4: frontmatter only. 0: missing frontmatter or schema. | 0-10 |
+| **Conversion Elements** | 10: mid-article CTA (if earned) + footer CTA + benefit-driven copy. 7: footer CTA only, benefit-driven. 4: generic CTA. 0: no CTA or broken link. | 0-10 |
+| **Crawl Readiness** | 10: Crawl Acceleration Package complete — sitemap entry correct, IndexNow JSON, GSC submit list, internal-link verification. 7: minor gaps. 4: partial. 0: missing. | 0-10 |
 | **TOTAL** | Minimum passing: 35/50 | /50 |
 
 **If the SEO total is below 35, or any SEO row is below 6, revise before outputting.** Never lower the standards — fix the gap. Do not show the scores to the user — internal quality gate only. The reader should feel the quality; they don't need to see the rubric.
@@ -1183,7 +1094,7 @@ Ask ONE clarifying question at a time:
 29. **Always** run the self-evaluation scoring before delivery
 30. **Always** generate the social distribution package after the article
 31. **Always** auto-save the article to the correct brand directory
-32. **Always** run Step 10 Post-Generation Self-Verification in full before delivery — frontmatter, schema, crawl, conversion, word count, and quality gates. All gates pass or the article does not ship. This is the single source of truth for pass/fail criteria.
+32. **Always** run Step 10 Post-Generation Self-Verification in full before delivery — header, crawl, conversion, word count, and quality gates. All gates pass or the article does not ship. This is the single source of truth for pass/fail criteria.
 33. **Always** score BOTH the Retention Rubric (every row ≥ 7) AND the SEO Sub-Rubric (≥ 35/50, no row below 6) before shipping. Never lower the standards — fix the gap.
 34. **Always** read the relevant `settings/seo/*.md` files during Step 3 (top-keywords for keyword planning, audience-personas for reader profile, competitor-gaps for differentiation, indexed-pages during Crawl Acceleration Package).
 35. **Never** silently skip a missing `indexed-pages-[brand].md` or any other settings file — flag the gap explicitly in the delivered package.
@@ -1249,7 +1160,7 @@ Ask ONE clarifying question at a time:
 - [ ] No fabricated metrics — all proof claims are real, sourced, or clearly framed as observed patterns
 - [ ] Mid-article CTA included if contextually earned (maximum 1, after Phase 4 or 5)
 
-**Frontmatter, Schema & Crawl — see Step 10 Post-Generation Self-Verification (authoritative checklist). Every gate in Step 10 must pass before delivery. No need to duplicate here.**
+**Header & Crawl — see Step 10 Post-Generation Self-Verification (authoritative checklist). Every gate in Step 10 must pass before delivery. No need to duplicate here.**
 
 **Delivery:**
 - [ ] Step 10 Post-Generation Self-Verification — all gates passed
