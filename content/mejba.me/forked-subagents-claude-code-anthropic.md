@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Forked Subagents in Claude Code: Why I Stopped Using Normal Ones
+**TITLE:** Forked Subagents in Claude Code: I Stopped Using Normal Ones
 **META TITLE:** Forked Subagents in Claude Code: A Practitioner's Guide
 **SLUG:** forked-subagents-claude-code-anthropic
 **PRIMARY KEYWORD:** forked subagents in Claude Code

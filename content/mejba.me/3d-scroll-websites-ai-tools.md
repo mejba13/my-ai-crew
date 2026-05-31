@@ -1,18 +1,11 @@
----
-title: "I Built 3D Scroll Websites in 15 Minutes for $5"
-slug: 3d-scroll-websites-ai-tools
-primary_keyword: 3D scroll effects website AI
-secondary_keywords:
-  - Claude Code website builder
-  - Cling 3.0 3D animation
-  - AI web design workflow
-tags:
-  - AI Development
-  - Web Design
-  - Claude Code
-  - 3D Animation
-  - Tutorial
-meta_description: "Build stunning 3D scroll-effect websites in minutes using Claude Code and Cling 3.0. Full workflow, real costs, and step-by-step process inside."
+**BRAND:** mejba.me
+**TITLE:** I Built 3D Scroll Websites in 15 Minutes for $5
+**META TITLE:** 3D Scroll Websites With AI: 15 Minutes, $5 Workflow
+**SLUG:** 3d-scroll-websites-ai-tools
+**PRIMARY KEYWORD:** 3D scroll effects website AI
+**META DESCRIPTION:** I built 3D scroll-effect websites in 15 minutes using Claude Code and Cling 3.0. Here's the full workflow, the real token costs, and every step inside.
+**TAGS:** AI Development, Web Design, Claude Code, 3D Animation, Tutorial
+
 ---
 
 # I Built 3D Scroll Websites in 15 Minutes for $5

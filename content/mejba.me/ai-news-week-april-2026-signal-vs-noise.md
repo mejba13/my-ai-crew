@@ -3,7 +3,7 @@
 **META TITLE:** AI News This Week April 2026: What's Signal, What's Noise
 **SLUG:** ai-news-week-april-2026-signal-vs-noise
 **PRIMARY KEYWORD:** AI news this week April 2026
-**META DESCRIPTION:** 15 AI releases landed in one week. I tested the ones that matter, skipped the ones that don't, and ranked every drop from Claude Design to Meta's Zuckerberg clone.
+**META DESCRIPTION:** 15 AI releases landed in one week. I tested the ones that matter, skipped the rest, and ranked every drop from Claude Design to Meta's Zuckerberg clone.
 
 **TAGS:** AI News April 2026, Claude Opus 4.7, OpenAI Codex, Google Flow, Perplexity Personal Computer
 

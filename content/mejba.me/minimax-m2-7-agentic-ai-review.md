@@ -3,7 +3,7 @@
 **SLUG:** minimax-m2-7-agentic-ai-review
 **PRIMARY KEYWORD:** MiniMax M2.7
 **SECONDARY KEYWORDS:** agentic AI model, self-evolving AI, MiniMax M2.7 review
-**META DESCRIPTION:** I tested MiniMax M2.7 across 7 real tasks. It self-improved through 100+ rounds, hits Opus-level benchmarks, and costs $0.30/M input tokens. Here's what happened.
+**META DESCRIPTION:** I tested MiniMax M2.7 across 7 real tasks. It self-improved over 100+ rounds, hits Opus-level benchmarks, and costs $0.30/M input tokens. Here's what happened.
 **TAGS:** AI Models, Agentic AI, MiniMax M2.7, AI Model Review, Hands-On Review
 **CONTENT TYPE:** Practitioner Review
 **CONTENT CLUSTER:** AI Model Reviews

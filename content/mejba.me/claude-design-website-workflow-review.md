@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Design Review: The AI Website Workflow I Actually Shipped
+**TITLE:** Claude Design Review: The AI Website Workflow I Shipped
 **META TITLE:** Claude Design Review 2026: AI Website Workflow Tested
 **SLUG:** claude-design-website-workflow-review
 **PRIMARY KEYWORD:** Claude Design review

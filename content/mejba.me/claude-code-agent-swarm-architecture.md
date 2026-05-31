@@ -1,14 +1,11 @@
----
-brand: mejba.me
-title: "Claude Code Agent Swarm: How Autonomous Task Orchestration Changes Everything"
-slug: claude-code-agent-swarm-architecture
-tags:
-  - Claude Code
-  - AI Agents
-  - Task Automation
-  - Anthropic
-  - Developer Tutorial
-meta_description: "Discover how Claude Code's agent swarm architecture transforms complex tasks with parallel execution, persistent task graphs, and autonomous coordination."
+**BRAND:** mejba.me
+**TITLE:** Claude Code Agent Swarm: Task Orchestration Explained
+**META TITLE:** Claude Code Agent Swarm Architecture Explained
+**SLUG:** claude-code-agent-swarm-architecture
+**PRIMARY KEYWORD:** Claude Code agent swarm
+**META DESCRIPTION:** How Claude Code's agent swarm architecture handles complex tasks with parallel execution, persistent task graphs, and autonomous coordination across sessions.
+**TAGS:** Claude Code, AI Agents, Task Automation, Anthropic, Developer Tutorial
+
 ---
 
 # Claude Code Agent Swarm: How Autonomous Task Orchestration Changes Everything

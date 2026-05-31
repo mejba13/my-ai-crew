@@ -4,7 +4,7 @@
 **SLUG:** codex-for-almost-everything-analysis
 **PRIMARY KEYWORD:** Codex for almost everything
 **SECONDARY KEYWORDS:** OpenAI Codex desktop app, Codex computer use, Codex developer workflows
-**META DESCRIPTION:** OpenAI's April 16, 2026 Codex update pushes the app far beyond coding with computer use, memory, automations, SSH, image generation, and browser-native workflows. Here's what actually matters.
+**META DESCRIPTION:** OpenAI's April 16, 2026 Codex update pushes the app far beyond coding with computer use, memory, automations, SSH, and browsing. Here's what truly matters.
 **TAGS:** OpenAI Codex, AI Development, Developer Productivity, Computer Use, Workflow Automation
 **CONTENT CLUSTER:** AI Tools & Productivity
 **TRANSFORMATION GOAL:** After reading, the reader will understand what OpenAI actually shipped in the April 16, 2026 Codex update, why it matters beyond code generation, and how the new computer use, memory, browser, and workflow features change the role Codex plays in a developer's stack.

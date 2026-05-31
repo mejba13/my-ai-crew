@@ -4,7 +4,7 @@
 **SLUG:** 3d-scroll-animations-ai-claude-code
 **PRIMARY KEYWORD:** 3D scroll animations AI
 **SECONDARY KEYWORDS:** scroll-driven frame animation, Nano Banana 2 scroll website, Claude Code scroll animation
-**META DESCRIPTION:** Build premium 3D scroll animations like Apple using Nano Banana 2, Kling 3.0, and Claude Code. Full workflow from image generation to frame-by-frame scroll animation.
+**META DESCRIPTION:** Build Apple-style 3D scroll animations with Nano Banana 2, Kling 3.0, and Claude Code. My full workflow from image generation to frame-by-frame scroll.
 **TAGS:** AI Development, Web Animation, Claude Code, Scroll Animation, Tutorial
 **CONTENT CLUSTER:** Vibe Coding & Automation
 **TRANSFORMATION GOAL:** After reading, the reader will be able to build a premium frame-by-frame scroll-driven animation using AI image generation, AI video, and Claude Code — without needing animation or design expertise.

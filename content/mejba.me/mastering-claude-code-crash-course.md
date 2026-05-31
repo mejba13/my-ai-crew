@@ -1,13 +1,11 @@
----
-title: Master Claude Code: The Strategy Most Developers Miss
-slug: mastering-claude-code-crash-course
-tags:
-  - Claude Code
-  - AI Development
-  - Ask User Question Tool
-  - Ralph Loops
-  - Tutorial
-meta_description: Learn the proven Claude Code workflow that separates beginners from experts. Master the Ask User Question tool, feature-driven development, and Ralph loops.
+**BRAND:** mejba.me
+**TITLE:** Master Claude Code: The Strategy Most Developers Miss
+**META TITLE:** Mastering Claude Code: A Practical Crash Course
+**SLUG:** mastering-claude-code-crash-course
+**PRIMARY KEYWORD:** mastering Claude Code
+**META DESCRIPTION:** The Claude Code workflow that separates beginners from experts. Master the Ask User Question tool, feature-driven development, and Ralph loops in one guide.
+**TAGS:** Claude Code, AI Development, Ask User Question Tool, Ralph Loops, Tutorial
+
 ---
 
 # Master Claude Code: The Strategy Most Developers Miss

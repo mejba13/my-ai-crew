@@ -3,7 +3,7 @@
 **META TITLE:** OpenAI Codex Workflow Agent Review: Claude Code User Tested
 **SLUG:** openai-codex-workflow-agent-review
 **PRIMARY KEYWORD:** OpenAI Codex workflow agent
-**META DESCRIPTION:** I live in Claude Code. Then OpenAI's April 16, 2026 Codex update shipped with computer use, an in-app browser, image gen, and memory. Here's what actually holds up under real work.
+**META DESCRIPTION:** I live in Claude Code. Then OpenAI's April 16, 2026 Codex update shipped computer use, an in-app browser, image gen, and memory. Here's what holds up at work.
 **TAGS:** OpenAI Codex, Claude Code, AI Agents, Developer Workflow, Agentic Coding
 
 ---
@@ -115,7 +115,7 @@ It remembers preferences ("I use Tailwind, not styled-components"). It remembers
 
 What it does not yet do, despite some of the launch framing: hold deep semantic context about a large codebase across weeks. It's not indexing your repo in the background. It's not building a mental model of your architecture. It's storing facts you've told it or that it has inferred from corrections. If you expected "Codex now understands your codebase" — that's not this.
 
-Think of memory today as a `.claude-preferences` file that writes itself instead of you hand-curating it. Useful. Not revolutionary. The bigger version of this feature — the one that actually does deep project awareness — is clearly where OpenAI is headed, but it's not what shipped.
+Think of memory today as a `.claude-preferences` file that writes itself instead of you hand-curating it. Useful. Not a breakthrough. The bigger version of this feature — the one that actually does deep project awareness — is clearly where OpenAI is headed, but it's not what shipped.
 
 Worth tracking. Not worth switching tools over.
 

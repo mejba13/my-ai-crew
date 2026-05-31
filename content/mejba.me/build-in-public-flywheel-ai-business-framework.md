@@ -1,23 +1,11 @@
----
-brand: mejba.me
-title: "The Build in Public Flywheel: My AI Business Framework"
-slug: build-in-public-flywheel-ai-business-framework
-tags:
-  - Claude Code
-  - AI Development
-  - SaaS Building
-  - Content Creation
-  - Framework Guide
-meta_description: "Master the Build in Public Flywheel—a proven AI business framework for building apps, creating content, and generating multiple revenue streams."
-featured_image_prompt: |
-  Create a premium tech-focused blog header image:
-  - Background: Dark gradient transitioning from #0F172A to #1E293B
-  - Central element: 3D terminal window with Claude Code interface, showing code lines and glowing cursor
-  - Floating elements: Dollar sign icons, SaaS dashboard mockups, social media icons (X bird, YouTube play button), connected by subtle flowing lines representing the flywheel
-  - Color accents: Purple (#8B5CF6) glow on terminal edges, cyan (#06B6D4) highlights on money symbols, blue (#3B82F6) data streams connecting elements
-  - Style: Futuristic, clean, tech-forward with subtle neon glow effects, isometric perspective
-  - Include a subtle gear/cycle icon representing the flywheel concept
-  - Aspect ratio: 16:9
+**BRAND:** mejba.me
+**TITLE:** Build in Public Flywheel: My AI Business Framework
+**META TITLE:** Build in Public Flywheel: My AI Business Framework
+**SLUG:** build-in-public-flywheel-ai-business-framework
+**PRIMARY KEYWORD:** Build in Public Flywheel
+**META DESCRIPTION:** The Build in Public Flywheel is the AI business framework I use to build apps, create content, and generate multiple revenue streams. Here is the full system.
+**TAGS:** Claude Code, AI Development, SaaS Building, Content Creation, Framework Guide
+
 ---
 
 # The Build in Public Flywheel: My AI Business Framework

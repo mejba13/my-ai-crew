@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Programmatic SEO: How I Built One Skill That Ships Pages
+**TITLE:** Claude Programmatic SEO: One Skill That Ships Pages
 **META TITLE:** Claude Programmatic SEO: 1 Skill, Hundreds of Pages
 **SLUG:** claude-programmatic-seo-skill
 **PRIMARY KEYWORD:** Claude programmatic SEO

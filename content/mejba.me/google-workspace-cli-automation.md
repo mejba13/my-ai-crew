@@ -1,12 +1,11 @@
----
-brand: mejba.me
-title: "I Automated Google Workspace From My Terminal — Here's How"
-slug: google-workspace-cli-automation
-primary_keyword: Google Workspace CLI
-secondary_keywords: GWS CLI automation, Claude Code Google Workspace, automate Gmail terminal
-meta_description: "Learn how to set up Google Workspace CLI with Claude Code to automate Gmail, Drive, Docs, and Slides from your terminal — step-by-step setup included."
-tags: [AI Tools, Automation, Google Workspace CLI, Claude Code, Tutorial]
-date: 2026-03-14
+**BRAND:** mejba.me
+**TITLE:** I Automated Google Workspace From My Terminal
+**META TITLE:** Google Workspace CLI + Claude Code: Full Setup
+**SLUG:** google-workspace-cli-automation
+**PRIMARY KEYWORD:** Google Workspace CLI
+**META DESCRIPTION:** How I set up the Google Workspace CLI with Claude Code to automate Gmail, Drive, Docs, and Slides from my terminal. The full step-by-step setup is inside.
+**TAGS:** AI Tools, Automation, Google Workspace CLI, Claude Code, Tutorial
+
 ---
 
 It was a Tuesday morning, and I had fifteen unread client emails, three Google Docs to update, a calendar invite to send, and a slide deck that needed formatting before a 10 AM call. The kind of morning that feels like you're already losing before you've even started.

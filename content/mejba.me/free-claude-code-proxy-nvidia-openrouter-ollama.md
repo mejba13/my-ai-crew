@@ -3,7 +3,7 @@
 **META TITLE:** Free Claude Code Proxy: NVIDIA, OpenRouter, Ollama
 **SLUG:** free-claude-code-proxy-nvidia-openrouter-ollama
 **PRIMARY KEYWORD:** free Claude Code proxy
-**META DESCRIPTION:** I tested a free Claude Code proxy that routes to NVIDIA NIM, OpenRouter, and Ollama. Built a habit tracker for cents instead of $5–$10. Setup, pitfalls, real costs.
+**META DESCRIPTION:** I tested a free Claude Code proxy routing to NVIDIA NIM, OpenRouter, and Ollama. Built a habit tracker for cents, not $5-$10. Setup, pitfalls, real costs.
 **TAGS:** Claude Code, AI Proxy, OpenRouter, NVIDIA NIM, Ollama
 
 ---

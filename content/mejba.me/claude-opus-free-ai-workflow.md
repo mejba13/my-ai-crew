@@ -11,7 +11,7 @@ Not because they were broken. They were working fine — technically. But I'd be
 
 So I did something reckless. I ripped out my entire AI workflow stack — every automation, every integration, every shortcut I'd painstakingly built — and rebuilt it from scratch using nothing but the new Claude features. Opus 4.6 as the brain. Free-tier upgrades I didn't even know existed. Zapier connections I'd never thought to try. A voice mode that honestly felt weird at first.
 
-What happened next genuinely surprised me. And I don't say that lightly, because I've tested enough AI tools at this point to be deeply skeptical of "game-changing" claims.
+What happened next genuinely surprised me. And I don't say that lightly, because I've tested enough AI tools at this point to be deeply skeptical of "changes everything" claims.
 
 Here's every new Claude feature worth knowing about, what actually works, what doesn't, and the exact workflow I built that replaced $47/month in other tools. But I need to set up the full picture first — because the real story isn't any single feature. The real story is what happens when you stack them together.
 

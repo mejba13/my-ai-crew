@@ -1,14 +1,11 @@
----
-brand: mejba.me
-title: "The Claude Co-work Daily Workflow That Runs 80% of My Tasks"
-slug: claude-cowork-daily-workflow
-tags:
-  - Claude Co-work
-  - AI Workflow
-  - Productivity Automation
-  - Anthropic
-  - Tutorial
-meta_description: "Build an AI-driven daily workflow with Claude Co-work using folder systems, morning prompts, and automated task prioritization. Complete setup guide included."
+**BRAND:** mejba.me
+**TITLE:** The Claude Co-work Workflow That Runs 80% of My Tasks
+**META TITLE:** Claude Co-work Daily Workflow System: My Setup
+**SLUG:** claude-cowork-daily-workflow-system
+**PRIMARY KEYWORD:** Claude Co-work daily workflow
+**META DESCRIPTION:** Build an AI-driven daily workflow with Claude Co-work using folder systems, morning prompts, and automated task prioritization. A complete setup guide inside.
+**TAGS:** Claude Co-work, AI Workflow, Productivity Automation, Anthropic, Tutorial
+
 ---
 
 # The Claude Co-work Daily Workflow That Runs 80% of My Tasks

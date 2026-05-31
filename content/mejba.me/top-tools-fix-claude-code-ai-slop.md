@@ -4,7 +4,7 @@
 **SLUG:** top-tools-fix-claude-code-ai-slop
 **PRIMARY KEYWORD:** Claude Code AI slop
 **SECONDARY KEYWORDS:** Claude Code front-end tools, best Claude Code design skills, AI slop web design
-**META DESCRIPTION:** My breakdown of 10 tools that make Claude Code's front-end output less generic, from anti-slop design skills and design-system generators to component libraries and Playwright testing.
+**META DESCRIPTION:** My breakdown of 10 tools that make Claude Code's front-end output less generic: anti-slop design skills, design-system generators, and component libraries.
 **TAGS:** Claude Code, Front-End Design, AI Tools, Design Systems, Web Development
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will understand why Claude Code often produces generic front-end design, know which 10 tools can improve its visual output and testing workflow, and be able to choose a practical stack for building more original websites.

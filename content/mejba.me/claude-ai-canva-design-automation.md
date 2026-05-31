@@ -109,7 +109,7 @@ This limitation taught me something important about working with AI design tools
 
 "Create a 6-slide pitch deck for a fitness app called FitPulse. Include slides for: problem statement, solution overview, key features, market opportunity, team introduction, and a call-to-action with download link."
 
-Claude generated all six slides with relevant content on each. The layouts were clean -- nothing revolutionary, but professionally acceptable. Each slide had a logical structure: headline, supporting text, and visual elements that matched the fitness theme.
+Claude generated all six slides with relevant content on each. The layouts were clean -- nothing groundbreaking, but professionally acceptable. Each slide had a logical structure: headline, supporting text, and visual elements that matched the fitness theme.
 
 Here's what was genuinely helpful: Claude wrote the actual pitch copy, not just placeholder text. The problem statement slide articulated a real pain point about fitness app fragmentation. The solution slide positioned FitPulse clearly. The market opportunity slide even included a reasonable framing of the addressable market (though the specific numbers were obviously fabricated -- always fact-check AI-generated statistics).
 

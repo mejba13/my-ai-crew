@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Codex App First Look: OpenAI's New AI Development Environment
+**TITLE:** Codex App First Look: OpenAI's New AI Dev Environment
 **SLUG:** codex-app-openai-first-look
 **TAGS:** AI Development, OpenAI Tools, Developer Productivity, Codex Review, Deep Dive
 **META DESCRIPTION:** My hands-on first look at OpenAI's Codex app—exploring voice dictation, IDE integration, and how it changes AI-assisted development workflows.

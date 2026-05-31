@@ -4,7 +4,7 @@
 **SLUG:** agentic-ai-transformation-google-framework
 **PRIMARY KEYWORD:** agentic AI transformation
 **SECONDARY KEYWORDS:** autonomous workflows, agentic commerce, critical user journeys, no-code AI prototyping
-**META DESCRIPTION:** I worked through Google's Agentic AI Transformation Framework end-to-end. Here's what actually shifts when you move from AI agents to autonomous enterprise workflows.
+**META DESCRIPTION:** I worked through Google's Agentic AI Transformation Framework end-to-end. Here's what actually shifts when you move from AI agents to autonomous workflows.
 **TAGS:** Agentic AI, AI Strategy, Enterprise AI, No-Code AI, Retail Innovation
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will be able to evaluate their own AI initiatives against a four-stage transformation framework and recognize when they are building isolated agents versus genuine autonomous workflows.

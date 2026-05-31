@@ -2,7 +2,7 @@
 **TITLE:** GPT 5.4 Tested: The Best AI Coding Model Right Now?
 **SLUG:** gpt-5-4-ai-coding-model-review
 **TAGS:** AI Development, AI-Assisted Coding, GPT 5.4, OpenAI Codex, Review
-**META DESCRIPTION:** My honest take on GPT 5.4 after testing it on real projects — the million-token context window, computer use, how it compares to Opus 4.6, and where it actually falls short.
+**META DESCRIPTION:** My honest take on GPT 5.4 after testing it on real projects: the million-token context, computer use, how it compares to Opus 4.6, and where it falls short.
 
 ---
 

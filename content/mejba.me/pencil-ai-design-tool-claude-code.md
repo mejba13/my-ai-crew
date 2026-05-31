@@ -3,7 +3,7 @@
 **SLUG:** pencil-ai-design-tool-claude-code
 **PRIMARY KEYWORD:** Pencil AI design tool
 **SECONDARY KEYWORDS:** AI agent swarm design, Pencil Claude Code integration, AI UI design workflow
-**META DESCRIPTION:** I tested Pencil AI's 6-agent swarm mode to generate polished UI designs and export them as React code via Claude Code. Here's how this workflow actually performs.
+**META DESCRIPTION:** I tested Pencil AI's 6-agent swarm mode to generate polished UI designs and export them as React code via Claude Code. How the workflow actually performs.
 **TAGS:** AI Development, UI Design, Pencil AI, Claude Code, Deep Dive
 
 ---

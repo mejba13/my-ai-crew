@@ -4,7 +4,7 @@
 **SLUG:** gpt-5-5-status-developer-playbook
 **PRIMARY KEYWORD:** GPT-5.5 status
 **SECONDARY KEYWORDS:** GPT-5.5 release date, OpenAI Spud model, GPT-5.4 migration
-**META DESCRIPTION:** GPT-5.5 isn't out yet. Here's what's actually confirmed, what's speculation, and the playbook I'm running on GPT-5.4 so the next release is a config flip, not a rewrite.
+**META DESCRIPTION:** GPT-5.5 isn't out yet. Here's what's confirmed, what's speculation, and the playbook I run on GPT-5.4 so the next release is a config flip, not a rewrite.
 **TAGS:** AI Development, OpenAI, GPT-5.5, Model Reviews, Deep Dive
 **CONTENT CLUSTER:** AI Model Reviews
 **TRANSFORMATION GOAL:** After reading, the reader will know exactly what's confirmed about GPT-5.5/Spud, what's speculation, and have a concrete infrastructure checklist they can ship this week so swapping to the next frontier model is a config change rather than a rewrite.

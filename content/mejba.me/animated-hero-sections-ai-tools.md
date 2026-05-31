@@ -3,7 +3,7 @@
 **SLUG:** animated-hero-sections-ai-tools
 **PRIMARY KEYWORD:** animated hero sections AI
 **SECONDARY KEYWORDS:** AI video hero background, Claude Code landing page, Nano Banana Pro website animation
-**META DESCRIPTION:** I used AI image and video tools to build animated hero sections that make websites look premium. Here's the exact workflow from static image to deployed landing page.
+**META DESCRIPTION:** I used AI image and video tools to build animated hero sections that make websites look premium. The exact workflow, from static image to deployed page.
 **TAGS:** AI Development, Web Design, Claude Code, Vibe Coding, Tutorial
 
 ---

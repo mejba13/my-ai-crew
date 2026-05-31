@@ -3,7 +3,7 @@
 **SLUG:** claude-code-remotion-youtube-motion-graphics
 **PRIMARY KEYWORD:** Claude Code Remotion motion graphics
 **SECONDARY KEYWORDS:** faceless YouTube channel motion graphics, Remotion video automation, AI motion graphics generator
-**META DESCRIPTION:** I used Claude Code and Remotion to build motion graphics for a faceless YouTube channel. Here's the full setup, workflow, and what I learned shipping 30+ videos.
+**META DESCRIPTION:** I used Claude Code and Remotion to build motion graphics for a faceless YouTube channel. Here's the full setup, workflow, and lessons from shipping 30+ videos.
 **TAGS:** Claude Code, Remotion, YouTube Automation, Motion Graphics, Tutorial
 **CONTENT TYPE:** Case Study / Build Log
 **CONTENT CLUSTER:** Claude Code & AI Agents

@@ -89,7 +89,7 @@ The questions, in the order they arrived:
 
 Every one of those questions would have become a bug two days into the build. The "Is agent type fixed enum or from API" question in particular — I had been assuming it was an enum. It's not. That assumption alone would have blown up a filter component and forced a refactor.
 
-This is what Traycer calls **Phases mode clarification**, and it runs inside the Epic setup. It is not revolutionary engineering. What it *is* is a model acting like a senior engineer who's been burned before and knows which assumptions get you killed. Most AI coding tools skip this step because clarification questions feel like friction. Traycer makes them the opening move.
+This is what Traycer calls **Phases mode clarification**, and it runs inside the Epic setup. It is not novel engineering. What it *is* is a model acting like a senior engineer who's been burned before and knows which assumptions get you killed. Most AI coding tools skip this step because clarification questions feel like friction. Traycer makes them the opening move.
 
 After I answered the questions, Traycer generated the specs. Plural. Not a single monolithic PRD but a spec tree:
 

@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** I Replaced My Daily 20-Minute SEO Routine With a Claude Code Scheduled Agent
+**TITLE:** I Replaced My 20-Min SEO Routine With a Claude Code Agent
 **META TITLE:** Automate SEO Checks with Claude Code Routines (2026)
 **SLUG:** automate-seo-checks-with-claude-code-routines
 **PRIMARY KEYWORD:** Claude Code routines

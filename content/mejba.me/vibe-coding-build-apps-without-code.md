@@ -1,13 +1,11 @@
----
-title: Vibe Coding: Build Real Apps Without Writing Code
-slug: vibe-coding-build-apps-without-code
-tags:
-  - Vibe Coding
-  - AI Development
-  - No-Code
-  - Riplet
-  - Tutorial
-meta_description: Learn how Vibe Coding lets you build full-stack apps by describing what you want in plain English. Complete guide with step-by-step examples.
+**BRAND:** mejba.me
+**TITLE:** Vibe Coding: Build Real Apps Without Writing Code
+**META TITLE:** Vibe Coding: Build Full-Stack Apps in Plain English
+**SLUG:** vibe-coding-build-apps-without-code
+**PRIMARY KEYWORD:** vibe coding
+**META DESCRIPTION:** How Vibe Coding lets you build full-stack apps just by describing what you want in plain English. Here is a complete guide with real step-by-step examples.
+**TAGS:** Vibe Coding, AI Development, No-Code, Riplet, Tutorial
+
 ---
 
 # Vibe Coding: Build Real Apps Without Writing Code

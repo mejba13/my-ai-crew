@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Code AI Trading Agent: What This 24/7 System Gets Right
+**TITLE:** Claude Code AI Trading Agent: 24/7 System Review
 **META TITLE:** Claude Code AI Trading Agent: 24/7 System Breakdown
 **SLUG:** claude-code-ai-trading-agent
 **PRIMARY KEYWORD:** Claude Code AI trading agent

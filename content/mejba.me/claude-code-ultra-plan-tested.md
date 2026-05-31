@@ -4,7 +4,7 @@
 **SLUG:** claude-code-ultra-plan-tested
 **PRIMARY KEYWORD:** Claude Code Ultra Plan
 **SECONDARY KEYWORDS:** ultraplan cloud planning, Claude Code planning mode, multi-agent planning
-**META DESCRIPTION:** I tested Claude Code's Ultra Plan across 10 prompts. Here's what the cloud planning mode actually does, how it compares to local plan, and when it's worth using.
+**META DESCRIPTION:** I tested Claude Code's Ultra Plan across 10 prompts. Here's what the cloud planning mode does, how it compares to local plan mode, and when it's worth it.
 **TAGS:** AI Development, Claude Code, Ultra Plan, Cloud Planning, Practitioner Review
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will understand exactly when Ultra Plan outperforms local planning, how its hidden multi-agent system works, and whether to adopt it into their workflow today.

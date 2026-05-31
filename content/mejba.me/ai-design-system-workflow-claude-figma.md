@@ -21,7 +21,7 @@ Here's what I realized: I'd been treating Claude like a magic wand. Wave it at a
 
 The fix wasn't a better prompt. The fix was structured training data — tokens with descriptions, components grouped with usage rules, specific example screens — then iterating locally in Claude Code before pushing a single frame to Figma. Once I did that, my first-pass UI went from "yeah I'll rebuild this" to "actually, I just need to tweak two text styles."
 
-That's the workflow I want to walk you through. Nothing revolutionary. Just boring, patient structure that makes Claude behave like a junior designer who's actually read your system — not a drunk tourist who's heard of design.
+That's the workflow I want to walk you through. Nothing fancy. Just boring, patient structure that makes Claude behave like a junior designer who's actually read your system — not a drunk tourist who's heard of design.
 
 ## Why Vanilla Figma AI And "Just Prompt It" Workflows Fall Apart
 

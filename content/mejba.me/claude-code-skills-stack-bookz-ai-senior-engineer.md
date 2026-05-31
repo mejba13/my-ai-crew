@@ -3,7 +3,7 @@
 **META TITLE:** Claude Code Skills Stack: Senior Engineer Workflow
 **SLUG:** claude-code-skills-stack-bookz-ai-senior-engineer
 **PRIMARY KEYWORD:** Claude Code skills stack
-**META DESCRIPTION:** The Claude Code skills stack one senior engineer uses to ship BookZ.AI — Superpowers TDD, Skill Creator, UI/UX ProMax, Playwright, Obsidian, Telegram, marketing, Fixed Ticket.
+**META DESCRIPTION:** The Claude Code skills stack one senior engineer uses to ship BookZ.AI: Superpowers TDD, Skill Creator, UI/UX ProMax, Playwright, Obsidian, Telegram, and more.
 **TAGS:** Claude Code, AI Skills, Developer Workflow, TDD, SaaS Engineering
 
 ---

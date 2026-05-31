@@ -3,7 +3,7 @@
 **META TITLE:** Run Gemma 4 Locally With LM Studio: Full Setup Guide
 **SLUG:** gemma-4-lm-studio-local-ai-setup
 **PRIMARY KEYWORD:** run Gemma 4 locally with LM Studio
-**META DESCRIPTION:** I set up Gemma 4 in LM Studio on a mid-range PC and ran it through real work — meeting notes, whiteboard photos, coding. Here's the full walkthrough, settings, and what actually worked.
+**META DESCRIPTION:** I set up Gemma 4 in LM Studio on a mid-range PC and ran it through real work — meeting notes, whiteboard photos, coding. Full walkthrough and settings.
 **TAGS:** Local AI, LM Studio, Gemma 4, Open Source AI, Practitioner Guide
 
 ---

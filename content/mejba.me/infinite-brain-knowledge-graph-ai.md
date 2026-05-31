@@ -24,7 +24,7 @@ I'm going to walk you through exactly what changed, why the math forces the chan
 
 ## Why PARA Quietly Sabotages Every AI Query You Run
 
-I want to be careful here. Tiago Forte's PARA method is not a bad system. For human note-takers in 2017, it was genuinely revolutionary — a way to organize a mountain of information by *actionability* rather than by topic, which is a smart move when the bottleneck is your own attention.
+I want to be careful here. Tiago Forte's PARA method is not a bad system. For human note-takers in 2017, it was genuinely transformative — a way to organize a mountain of information by *actionability* rather than by topic, which is a smart move when the bottleneck is your own attention.
 
 But the bottleneck stopped being your attention somewhere around late 2024. The bottleneck became **how cleanly an LLM can retrieve, reason over, and synthesize the knowledge you've collected**. And once that's the constraint, every PARA design decision starts working against you.
 

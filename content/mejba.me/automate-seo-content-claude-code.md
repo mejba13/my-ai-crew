@@ -3,7 +3,7 @@
 **SLUG:** automate-seo-content-claude-code
 **PRIMARY KEYWORD:** automate SEO content Claude Code
 **SECONDARY KEYWORDS:** automated blog publishing, SEO content pipeline, AI content automation
-**META DESCRIPTION:** How I built a fully automated SEO content pipeline using Claude Code, Arvow, and Blotato — from keyword research to publishing to social media. Full setup walkthrough.
+**META DESCRIPTION:** How I built a fully automated SEO content pipeline with Claude Code, Arvow, and Blotato, from keyword research to publishing to social. Full walkthrough.
 **TAGS:** AI Automation, Claude Code, SEO Strategy, Content Marketing, Case Study
 **CONTENT TYPE:** Case Study
 **CONTENT CLUSTER:** Claude Code & AI Agents

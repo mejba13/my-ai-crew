@@ -4,7 +4,7 @@
 **SLUG:** caveman-claude-code-token-optimization
 **PRIMARY KEYWORD:** caveman Claude Code
 **SECONDARY KEYWORDS:** Claude Code token optimization, reduce Claude Code costs, brevity constraints LLM performance
-**META DESCRIPTION:** I tested the caveman skill that forces Claude Code to drop filler words. The token savings were modest — but the accuracy gains backed by real research surprised me.
+**META DESCRIPTION:** I tested the caveman skill that forces Claude Code to drop filler words. The token savings were modest, but the accuracy gains genuinely surprised me.
 **TAGS:** Claude Code, Token Optimization, AI Productivity, Developer Tools, Tutorial
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will understand the real (not exaggerated) token savings from caveman mode, the science behind why brevity improves LLM accuracy, and how to implement concise prompting in their own workflow.

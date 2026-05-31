@@ -4,7 +4,7 @@
 **SLUG:** claude-code-video-editing-workflow
 **PRIMARY KEYWORD:** Claude Code video editing workflow
 **SECONDARY KEYWORDS:** Remotion Claude Code pipeline, Whisper transcription automation, Descript text-based editing
-**META DESCRIPTION:** I rebuilt my video editing pipeline around Claude Code, Remotion, Descript, and Whisper. Here's the exact workflow that cut my edit time from 6 hours to minutes.
+**META DESCRIPTION:** I rebuilt my video editing pipeline around Claude Code, Remotion, Descript, and Whisper. Here's the workflow that cut my edit time from 6 hours to minutes.
 **TAGS:** Claude Code, Video Automation, Remotion, Whisper, Content Workflow
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will understand the exact Claude Code orchestration pipeline needed to move 80% of video editing work from manual timeline dragging to prompt-driven automation — and know where to keep humans in the loop.

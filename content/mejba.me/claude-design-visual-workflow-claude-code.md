@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Design Review: The Visual Layer Claude Code Was Missing
+**TITLE:** Claude Design Review: The Visual Layer Claude Code Missed
 **META TITLE:** Claude Design Review: Anthropic's Visual Claude Code Layer
 **SLUG:** claude-design-visual-workflow-claude-code
 **PRIMARY KEYWORD:** Claude Design

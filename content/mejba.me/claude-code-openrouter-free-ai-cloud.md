@@ -3,7 +3,7 @@
 **SLUG:** claude-code-openrouter-free-ai-cloud
 **PRIMARY KEYWORD:** Claude Code OpenRouter free models
 **SECONDARY KEYWORDS:** free open source AI models cloud, OpenRouter free tier setup, Claude Code free alternative
-**META DESCRIPTION:** I configured Claude Code to run 29+ free open-source AI models through OpenRouter. Full setup guide, model tests, and the workflow that replaced my local inference.
+**META DESCRIPTION:** I configured Claude Code to run 29+ free open-source AI models via OpenRouter. Full setup guide, model tests, and the workflow that replaced local inference.
 **TAGS:** AI Tools, Claude Code, OpenRouter, Open Source AI, Tutorial
 **CONTENT TYPE:** Case Study / Build Log
 **CONTENT CLUSTER:** Claude Code & AI Agents

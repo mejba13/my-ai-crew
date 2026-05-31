@@ -1,13 +1,11 @@
----
-title: "Six Levels of Claude Code Mastery I Wish I Knew Earlier"
-slug: claude-code-mastery-six-levels
-tags:
-  - Claude Code
-  - AI Development
-  - Context Engineering
-  - MCP Servers
-  - Mastery Guide
-meta_description: "A practitioner's breakdown of the six progression levels for mastering Claude Code — from writing basic prompts to orchestrating multi-agent teams with Git worktrees."
+**BRAND:** mejba.me
+**TITLE:** Six Levels of Claude Code Mastery I Wish I Knew
+**META TITLE:** Six Levels of Claude Code Mastery: A Real Guide
+**SLUG:** claude-code-mastery-six-levels
+**PRIMARY KEYWORD:** Claude Code mastery
+**META DESCRIPTION:** A practitioner's breakdown of the six levels of Claude Code mastery, from writing basic prompts to orchestrating multi-agent teams with Git worktrees.
+**TAGS:** Claude Code, AI Development, Context Engineering, MCP Servers, Mastery Guide
+
 ---
 
 # Six Levels of Claude Code Mastery I Wish I Knew Earlier

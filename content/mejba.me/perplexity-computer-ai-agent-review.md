@@ -3,7 +3,7 @@
 **SLUG:** perplexity-computer-ai-agent-review
 **PRIMARY KEYWORD:** Perplexity Computer AI agent
 **SECONDARY KEYWORDS:** AI task automation, AI model orchestration, Perplexity Computer review
-**META DESCRIPTION:** I tested Perplexity Computer as an AI employee for a week. Here's how its 20+ model orchestration handled real business tasks, what it nailed, and where it fell short.
+**META DESCRIPTION:** I tested Perplexity Computer as an AI employee for a week. Here's how its 20+ model orchestration handled real business tasks, and where it fell short.
 **TAGS:** AI Development, AI Agents, Perplexity Computer Review, Task Automation, Deep Dive Guide
 
 ---

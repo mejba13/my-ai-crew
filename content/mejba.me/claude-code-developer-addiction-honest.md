@@ -3,7 +3,7 @@
 **META TITLE:** Claude Code Addiction: An Honest Developer Confession
 **SLUG:** claude-code-developer-addiction-honest
 **PRIMARY KEYWORD:** Claude Code addiction
-**META DESCRIPTION:** I hit Claude Code's weekly rate limit twice last month. I paid $100 anyway. Here's why developers are openly addicted — and what the source leak and benchmarks actually reveal.
+**META DESCRIPTION:** I hit Claude Code's weekly rate limit twice last month and paid $100 anyway. Why developers are openly addicted, and what the leak and benchmarks reveal.
 **TAGS:** Claude Code, AI Development, Developer Workflow, Anthropic, Opinion
 
 ---

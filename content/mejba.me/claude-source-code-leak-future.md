@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude's 512K-Line Leak: What Anthropic Didn't Want You to See
+**TITLE:** Claude's 512K-Line Leak: What Anthropic Didn't Want Seen
 **META TITLE:** Claude Source Code Leak: Mythos, KAIROS & What's Next
 **SLUG:** claude-source-code-leak-future
 **PRIMARY KEYWORD:** Claude source code leak

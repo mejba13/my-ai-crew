@@ -1,10 +1,10 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Routines: I Replaced My N8N Workflows in One Afternoon
+**TITLE:** Claude Routines: I Replaced My N8N Workflows in an Afternoon
 **META TITLE:** Claude Routines Review: Anthropic's N8N Killer Tested
 **SLUG:** claude-routines-automation-platform
 **PRIMARY KEYWORD:** Claude Routines
 **SECONDARY KEYWORDS:** Claude Code automation, N8N alternative, AI workflow automation
-**META DESCRIPTION:** I tested Claude Routines against my N8N stack. Here's what Anthropic's new automation platform gets right, where it still falls short, and who should switch now.
+**META DESCRIPTION:** I tested Claude Routines against my N8N stack. Here's what Anthropic's new automation platform gets right, where it falls short, and who should switch now.
 **TAGS:** Claude Code, Automation, AI Agents, N8N, Workflow
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will know when Claude Routines beats N8N/Make.com, how to set up their first scheduled AI workflow in under 10 minutes, and which existing automations they should migrate first.

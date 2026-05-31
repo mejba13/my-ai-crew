@@ -1,13 +1,11 @@
----
-title: "Claude Code Anti-Gravity: The IDE Setup That Changed How I Build"
-slug: claude-code-anti-gravity-guide
-tags:
-  - Claude Code
-  - AI Development
-  - Anti-Gravity IDE
-  - BLAST Framework
-  - Workflow Guide
-meta_description: "How I combined Claude Code with Google's Anti-Gravity IDE to build faster, manage context better, and automate entire workflows using the BLAST framework and Claude Skills."
+**BRAND:** mejba.me
+**TITLE:** Claude Code Anti-Gravity: The IDE Setup I Now Use
+**META TITLE:** Claude Code + Anti-Gravity IDE: My Build Setup
+**SLUG:** claude-code-anti-gravity-guide
+**PRIMARY KEYWORD:** Claude Code Anti-Gravity
+**META DESCRIPTION:** How I paired Claude Code with Google's Anti-Gravity IDE to build faster, manage context, and automate workflows using the BLAST framework and Claude Skills.
+**TAGS:** Claude Code, AI Development, Anti-Gravity IDE, BLAST Framework, Workflow Guide
+
 ---
 
 # Claude Code Anti-Gravity: The IDE Setup That Changed How I Build

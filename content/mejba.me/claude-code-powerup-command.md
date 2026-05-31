@@ -1,9 +1,9 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Code's /powerup Command Teaches You Inside the Terminal
+**TITLE:** Claude Code's /powerup Teaches You in the Terminal
 **SLUG:** claude-code-powerup-command
 **PRIMARY KEYWORD:** Claude Code /powerup command
 **SECONDARY KEYWORDS:** Claude Code 2.1.90, Claude Code interactive lessons, learn Claude Code terminal
-**META DESCRIPTION:** Claude Code 2.1.90 ships /powerup — interactive lessons that teach you Claude Code right inside the terminal. Here's my first-hand look at what it does and why it matters.
+**META DESCRIPTION:** Claude Code 2.1.90 ships /powerup: interactive lessons that teach you Claude Code right in the terminal. My first-hand look at what it does and why it matters.
 **TAGS:** Claude Code, AI Development, Interactive Learning, Developer Tools, First Look
 **CONTENT TYPE:** News Analysis / First Look
 **CONTENT CLUSTER:** Claude Code & AI Agents

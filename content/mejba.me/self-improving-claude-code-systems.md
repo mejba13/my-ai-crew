@@ -1,13 +1,11 @@
----
-title: Build Self-Improving AI Systems with Claude Code
-slug: self-improving-claude-code-systems
-tags:
-  - Claude Code
-  - AI Automation
-  - Prompt Engineering
-  - Supabase
-  - Tutorial
-meta_description: Learn how to build AI systems that automatically improve their own prompts using Claude Code, Supabase, and reflection loops. Complete implementation guide.
+**BRAND:** mejba.me
+**TITLE:** Build Self-Improving AI Systems with Claude Code
+**META TITLE:** Self-Improving AI Systems With Claude Code
+**SLUG:** self-improving-claude-code-systems
+**PRIMARY KEYWORD:** self-improving AI systems
+**META DESCRIPTION:** How I build AI systems that automatically improve their own prompts using Claude Code, Supabase, and reflection loops. A complete implementation guide inside.
+**TAGS:** Claude Code, AI Automation, Prompt Engineering, Supabase, Tutorial
+
 ---
 
 # Build Self-Improving AI Systems with Claude Code

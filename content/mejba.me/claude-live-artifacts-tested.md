@@ -3,7 +3,7 @@
 **META TITLE:** Claude Live Artifacts Tested: Real-Time Dashboards in 60s
 **SLUG:** claude-live-artifacts-tested
 **PRIMARY KEYWORD:** Claude live artifacts
-**META DESCRIPTION:** I tested Claude live artifacts on real client data. Spend trackers, content pipelines, e-commerce KPIs — built in seconds, refreshing on open. Here's what works.
+**META DESCRIPTION:** I tested Claude live artifacts on real client data: spend trackers, content pipelines, e-commerce KPIs, built in seconds and refreshing on open. What works.
 **TAGS:** Claude Co-work, AI Dashboards, Anthropic, Workflow Automation, Tool Review
 
 ---

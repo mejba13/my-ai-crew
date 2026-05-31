@@ -4,7 +4,7 @@
 **SLUG:** claude-code-desktop-redesign-routines
 **PRIMARY KEYWORD:** Claude Code desktop redesign
 **SECONDARY KEYWORDS:** Claude Code Routines, Claude Code Ultra Plan, parallel agents
-**META DESCRIPTION:** I spent three days living inside the redesigned Claude Code desktop app. Parallel sessions, Routines, Ultra Plan — here's what actually changes for solo builders.
+**META DESCRIPTION:** I spent three days inside the redesigned Claude Code desktop app. Parallel sessions, Routines, Ultra Plan — here's what actually changes for solo builders.
 **TAGS:** Claude Code, AI Agents, Developer Tools, Anthropic, Workflow Automation
 **CONTENT CLUSTER:** Claude Code & AI Agents
 **TRANSFORMATION GOAL:** After reading, the reader will understand exactly how the new Claude Code desktop app, Routines, and Ultra Plan change solo developer workflows — and which features are worth adopting first.

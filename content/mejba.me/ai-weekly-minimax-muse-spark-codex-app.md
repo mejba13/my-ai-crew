@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** MiniMax M2.7, Muse Spark, and the Codex Super App — This Week in AI
+**TITLE:** MiniMax M2.7, Muse Spark, Codex Super App: AI This Week
 **META TITLE:** MiniMax M2.7, Meta Muse Spark, OpenAI Codex App — AI Updates
 **SLUG:** ai-weekly-minimax-muse-spark-codex-app
 **PRIMARY KEYWORD:** MiniMax M2.7

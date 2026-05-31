@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Code /advisor Command: A Second Brain for Stuck Models
+**TITLE:** Claude Code /advisor Command: A Second Brain for Models
 **META TITLE:** Claude Code /advisor Slash Command Tested (2026)
 **SLUG:** claude-code-advisor-slash-command
 **PRIMARY KEYWORD:** Claude Code advisor slash command

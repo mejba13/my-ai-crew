@@ -4,7 +4,7 @@
 **SLUG:** codex-vs-claude-code-subscription
 **PRIMARY KEYWORD:** Codex vs Claude Code
 **SECONDARY KEYWORDS:** Codex $100 plan, GPT 5.4 vs Opus 4.6, ChatGPT Pro Codex subscription
-**META DESCRIPTION:** I ran Codex and Claude Code side by side for three weeks on real projects. Here's why the new $100 Codex plan changed how I budget my AI coding subscriptions in 2026.
+**META DESCRIPTION:** I ran Codex and Claude Code side by side for three weeks on real projects. Here's why the new $100 Codex plan changed how I budget my AI coding tools.
 **TAGS:** AI Development, Codex, Claude Code, Model Comparison, Subscription Review
 **CONTENT CLUSTER:** AI Model Reviews
 **TRANSFORMATION GOAL:** After reading, the reader will know exactly which AI coding subscription to pay for in April 2026 — and why the Codex $100 plan just rewrote the mid-tier calculation.

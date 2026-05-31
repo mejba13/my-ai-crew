@@ -3,7 +3,7 @@
 **META TITLE:** Higgsfield CLI in Claude Code: Landing Page Build Log
 **SLUG:** higgsfield-cli-claude-code-landing-pages
 **PRIMARY KEYWORD:** Higgsfield CLI Claude Code
-**META DESCRIPTION:** I tested the Higgsfield CLI inside Claude Code to ship a full landing page — hero images, lifestyle shots, a loop video, and the HTML. Here is the actual build log.
+**META DESCRIPTION:** I tested the Higgsfield CLI inside Claude Code to ship a full landing page: hero images, lifestyle shots, a loop video, and the HTML. The actual build log.
 **TAGS:** Claude Code, Higgsfield, AI Skills, Landing Pages, Creative Automation
 
 ---

@@ -3,7 +3,7 @@
 **SLUG:** claude-code-powerup-insights-guide
 **PRIMARY KEYWORD:** Claude Code /powerup /insights
 **SECONDARY KEYWORDS:** Claude Code slash commands, Claude Code usage analytics, Claude Code learning system
-**META DESCRIPTION:** How Claude Code's /powerup and /insights commands work together to take you from beginner to expert. Hands-on guide with automation pipelines and Obsidian integration.
+**META DESCRIPTION:** How Claude Code's /powerup and /insights commands work together to take you from beginner to expert. Hands-on guide with automation pipelines and Obsidian.
 **TAGS:** Claude Code, AI Development, Workflow Automation, Developer Tools, Tutorial
 **CONTENT TYPE:** Deep Dive
 **CONTENT CLUSTER:** Claude Code & AI Agents

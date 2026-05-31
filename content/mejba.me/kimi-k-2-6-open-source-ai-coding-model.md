@@ -130,7 +130,7 @@ Three and a half hours. One prompt. Thirty shipable landing pages. I haven't dec
 
 I gave K2.6 a brief: *"Write a comprehensive analysis of the AI coding model market as of April 2026. Include benchmark data, pricing comparisons, market share estimates, and a forward-looking section on what to expect in the next six months. Include charts. Include real citations."*
 
-It wrote **12,400 words**. It generated seven embedded charts (as SVG, rendered inline). It cited 34 sources, with links. The first draft was shippable with light editing — genuinely shippable, not "needs a full rewrite." The analysis was not revolutionary, but it was *accurate*, well-structured, and properly sourced. For long-form research output, K2.6 punches meaningfully above its price tier.
+It wrote **12,400 words**. It generated seven embedded charts (as SVG, rendered inline). It cited 34 sources, with links. The first draft was shippable with light editing — genuinely shippable, not "needs a full rewrite." The analysis broke no new ground, but it was *accurate*, well-structured, and properly sourced. For long-form research output, K2.6 punches meaningfully above its price tier.
 
 ### Test 4: A 360-Degree 3D Product Viewer
 
