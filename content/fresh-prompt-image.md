@@ -1,13 +1,15 @@
 **BRAND:** mejba.me
-**TITLE:** Code with Claude 2026: The Agent Future Just Got Real
-**META TITLE:** Code with Claude Conference 2026: Agent Future Preview
-**SLUG:** code-with-claude-2026-agent-future-preview
-**PRIMARY KEYWORD:** Code with Claude conference
-**META DESCRIPTION:** Dreaming, outcome loops, multi-agent orchestration, infinite context, Mythos — what Anthropic's Code with Claude conference actually previewed for builders.
-**TAGS:** Claude Code, AI Agents, Anthropic, AI News, Future of AI
+**TITLE:** Karpathy's Obsidian RAG Killed My Vector Database
+**META TITLE:** Karpathy Obsidian RAG System: No Vector DB Needed
+**SLUG:** karpathy-obsidian-rag-knowledge-base
+**PRIMARY KEYWORD:** Karpathy Obsidian RAG
+**SECONDARY KEYWORDS:** LLM knowledge base Obsidian, markdown RAG no vector database, Obsidian wiki LLM
+**META DESCRIPTION:** Andrej Karpathy's Obsidian RAG system skips vector databases entirely. Here's how his markdown-first LLM knowledge base works and how I rebuilt it.
+**TAGS:** AI Tools, Knowledge Management, RAG Systems, Obsidian, Tutorial
+**CONTENT CLUSTER:** AI Tools & Productivity
+_**TRANSFORMATION GOAL:** After reading, the reader will_ understand Karpathy's LLM Knowledge Base architecture and be able to set up their own Obsidian-based wiki system where the LLM compiles, indexes, and queries structured markdown -- without vector databases or embeddings.
 
 ---
-
 Create a viral blog featured image for the new post.
 
 Brand:
