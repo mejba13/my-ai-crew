@@ -1,13 +1,11 @@
----
-title: AI Gave You Coding. Now It Gives You Design.
-slug: ai-app-design-systems-guide
-tags:
-  - AI Design
-  - UI/UX
-  - Design Systems
-  - Claude Code
-  - Tutorial
-meta_description: Transform your generic-looking AI apps with proper design systems. Learn how to use AI tools to create polished, consistent UI that doesn't scream "AI-made."
+**BRAND:** mejba.me
+**TITLE:** AI Gave You Coding. Now It Gives You Design.
+**META TITLE:** AI App Design Systems: From Generic to Polished UI
+**SLUG:** ai-app-design-systems-guide
+**PRIMARY KEYWORD:** AI app design systems
+**META DESCRIPTION:** Transform generic-looking AI apps with real design systems. Here is how I use AI tools to build polished, consistent UI that doesn't scream "AI-made."
+**TAGS:** AI Design, UI/UX, Design Systems, Claude Code, Tutorial
+
 ---
 
 # AI Gave You Coding. Now It Gives You Design.

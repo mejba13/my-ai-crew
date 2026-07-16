@@ -1,15 +1,11 @@
----
-brand: mejba.me
-title: "Claude Code Tasks: Parallel Execution Across Sessions"
-slug: claude-code-task-management
-tags:
-  - Claude Code
-  - AI Automation
-  - Task Management
-  - Developer Tools
-  - Tutorial
-meta_description: "Master Claude Code's new task system with parallel sub-agents, multi-session support, and GitHub integration for complex project management."
-featured_image_prompt: "Create a premium tech blog hero image: Background: Dark gradient (#0F172A to #1E293B) with subtle grid pattern. Central element: 3D floating task cards/JSON files arranged in a connected dependency graph. Visual flow: Multiple glowing connection lines between cards showing parallel execution paths. Floating icons: Terminal windows, Git branch symbols, checkmark badges, sub-agent avatars. Colors: Purple (#8B5CF6) to Blue (#3B82F6) to Cyan (#06B6D4) gradient on task cards. Accent elements: Neon glow effects on active connections, subtle particle effects suggesting parallel processing. Style: Futuristic orchestration dashboard aesthetic, clean minimalist cards with depth. Aspect ratio: 16:9"
+**BRAND:** mejba.me
+**TITLE:** Claude Code Tasks: Parallel Execution Across Sessions
+**META TITLE:** Claude Code Task Management: Parallel Sub-Agents
+**SLUG:** claude-code-task-management
+**PRIMARY KEYWORD:** Claude Code task management
+**META DESCRIPTION:** A practical guide to Claude Code's task system: parallel sub-agents, multi-session support, and GitHub integration for managing complex projects end to end.
+**TAGS:** Claude Code, AI Automation, Task Management, Developer Tools, Tutorial
+
 ---
 
 # Claude Code Tasks: How Parallel Execution Changed My Workflow Forever

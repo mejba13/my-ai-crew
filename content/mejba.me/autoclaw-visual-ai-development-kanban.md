@@ -1,13 +1,11 @@
----
-title: AutoClaw Turns AI Coding Into a Visual Kanban Workflow
-slug: autoclaw-visual-ai-development-kanban
-tags:
-  - AI Development
-  - Claude Code
-  - Developer Tools
-  - Automation
-  - Tutorial
-meta_description: AutoClaw replaces terminal-based AI coding with visual Kanban boards. Run multiple agents, manage branches, and ship faster with spec-driven development.
+**BRAND:** mejba.me
+**TITLE:** AutoClaw Turns AI Coding Into a Visual Kanban
+**META TITLE:** AutoClaw: Visual Kanban Workflow for AI Coding
+**SLUG:** autoclaw-visual-ai-development-kanban
+**PRIMARY KEYWORD:** AutoClaw visual AI development
+**META DESCRIPTION:** AutoClaw replaces terminal-based AI coding with visual Kanban boards. Run multiple agents, manage branches, and ship faster with spec-driven development.
+**TAGS:** AI Development, Claude Code, Developer Tools, Automation, Tutorial
+
 ---
 
 # AutoClaw Turns AI Coding Into a Visual Kanban Workflow

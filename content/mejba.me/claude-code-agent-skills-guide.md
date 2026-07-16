@@ -61,7 +61,7 @@ But the folder-based structure unlocks something even more important than contex
 
 Because skills are just folders with files, they inherit all the properties of software that we already know how to manage.
 
-**Version control.** Drop your skills folder into a Git repository and you've got full history. Who changed what, when, why. Roll back a skill to last Tuesday's version because the new one introduced a bug. Branch a skill to test modifications without affecting the main version. This is foundational stuff for software but revolutionary for prompt engineering, which has traditionally been "edit the prompt, hope it works, pray you remember what you changed."
+**Version control.** Drop your skills folder into a Git repository and you've got full history. Who changed what, when, why. Roll back a skill to last Tuesday's version because the new one introduced a bug. Branch a skill to test modifications without affecting the main version. This is foundational stuff for software but almost unheard of in prompt engineering, which has traditionally been "edit the prompt, hope it works, pray you remember what you changed."
 
 **Sharing and collaboration.** Zip a skill folder, send it to a colleague, and they have your exact capability. No "copy this prompt and tweak it for your setup." No "make sure you also change the model config." The skill is self-contained. Everything it needs is in the folder.
 

@@ -1,5 +1,5 @@
 **BRAND:** mejba.me
-**TITLE:** Claude Co-work Plugins: I Built a YouTube Repurposing Machine
+**TITLE:** Claude Co-work Plugins: A YouTube Repurposing Machine
 **SLUG:** claude-cowork-plugins-youtube-automation
 **TAGS:** AI Automation, Claude Co-work, Content Workflow, Zapier Integration, Tutorial
 

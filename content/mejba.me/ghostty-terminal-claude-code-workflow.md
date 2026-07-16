@@ -1,14 +1,11 @@
----
-brand: mejba.me
-title: Why Ghostty Terminal Is My Fastest Claude Code Workflow
-slug: ghostty-terminal-claude-code-workflow
-tags:
-  - Claude Code
-  - Terminal Workflow
-  - AI Development
-  - Ghostty
-  - Developer Tutorial
-meta_description: Discover why Ghostty terminal with Claude Code CLI beats VS Code and Cursor for speed, multitasking, and efficiency. My tested workflow explained.
+**BRAND:** mejba.me
+**TITLE:** Why Ghostty Terminal Is My Fastest Claude Code Workflow
+**META TITLE:** Ghostty Terminal + Claude Code: My Fastest Setup
+**SLUG:** ghostty-terminal-claude-code-workflow
+**PRIMARY KEYWORD:** Ghostty terminal Claude Code
+**META DESCRIPTION:** Why Ghostty terminal with the Claude Code CLI beats VS Code and Cursor for speed, multitasking, and efficiency. My tested daily workflow, explained in full.
+**TAGS:** Claude Code, Terminal Workflow, AI Development, Ghostty, Developer Tutorial
+
 ---
 
 # Why Ghostty Terminal Is My Fastest Claude Code Workflow

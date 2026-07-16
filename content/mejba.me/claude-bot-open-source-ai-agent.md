@@ -1,14 +1,11 @@
----
-brand: mejba.me
-title: "Claude Bot Explained: The Open-Source AI Agent Running Wild"
-slug: claude-bot-open-source-ai-agent
-tags:
-  - AI Agents
-  - Claude Bot
-  - Open Source AI
-  - Automation Tools
-  - Deep Dive
-meta_description: "Discover what Claude Bot really is, how it differs from Claude Code, its powerful capabilities, real risks, and why it's generating massive buzz in AI circles."
+**BRAND:** mejba.me
+**TITLE:** Claude Bot: The Open-Source AI Agent Running Wild
+**META TITLE:** Claude Bot: The Open-Source AI Agent Explained
+**SLUG:** claude-bot-open-source-ai-agent
+**PRIMARY KEYWORD:** Claude Bot open source
+**META DESCRIPTION:** What Claude Bot really is, how it differs from Claude Code, its capabilities, the real risks, and why it's generating so much buzz in AI circles right now.
+**TAGS:** AI Agents, Claude Bot, Open Source AI, Automation Tools, Deep Dive
+
 ---
 
 # Claude Bot Explained: The Open-Source AI Agent Running Wild

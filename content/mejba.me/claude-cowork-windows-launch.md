@@ -127,7 +127,7 @@ That pipeline behavior is the agentic architecture showing its engineering roots
 
 ## My Honest Assessment After 48 Hours
 
-Cowork on Windows isn't a revolutionary leap from Cowork on Mac. It's the same product, faithfully ported, with the same strengths and the same limitations. That's actually the highest compliment I can give a cross-platform release — "full feature parity" isn't just marketing copy here. It's accurate.
+Cowork on Windows isn't a dramatic leap from Cowork on Mac. It's the same product, faithfully ported, with the same strengths and the same limitations. That's actually the highest compliment I can give a cross-platform release — "full feature parity" isn't just marketing copy here. It's accurate.
 
 The value proposition is clearest for three groups. First, Windows-primary developers who want agentic file manipulation without terminal workflows — Cowork fills that gap cleanly. Second, knowledge workers who aren't developers at all — Cowork is the first tool I'd recommend for someone who wants AI-powered automation but has never opened a command line. Third, multi-platform users like me who need consistent tooling across operating systems.
 

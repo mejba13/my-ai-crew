@@ -1,24 +1,11 @@
----
-brand: mejba.me
-title: "Claude Canvas: Your Terminal Now Has a Visual Brain"
-slug: claude-canvas-visual-terminal
-tags:
-  - Claude Code
-  - AI Tools
-  - Terminal Productivity
-  - Developer Experience
-  - Tutorial
-meta_description: "Transform your terminal into a visual powerhouse with Claude Canvas. I explore how this TUI toolkit adds email, calendar, and booking interfaces to Claude Code."
-featured_image_prompt: |
-  Create a premium tech blog featured image with the following specifications:
-  - Background: Dark gradient flowing from deep navy (#0F172A) to slate (#1E293B)
-  - Central composition: A stylized terminal window rendered in 3D perspective, showing a split-pane layout. Left pane shows abstract code/text lines in cyan (#06B6D4). Right pane displays a floating calendar grid and email interface overlay
-  - Floating elements: Holographic icons for calendar, email envelope, and airplane ticket orbiting the terminal window
-  - Color accents: Purple (#8B5CF6) glow emanating from the terminal edges, transitioning to blue (#3B82F6) and cyan (#06B6D4) highlights on the floating icons
-  - Visual effects: Subtle grid lines in the background suggesting a digital workspace, soft particle effects in purple and cyan tones
-  - Style: Futuristic, clean, tech-forward aesthetic with depth through layered elements and ambient glow effects
-  - Typography: No text in the image
-  - Aspect ratio: 16:9 (1920x1080)
+**BRAND:** mejba.me
+**TITLE:** Claude Canvas: Your Terminal Now Has a Visual Brain
+**META TITLE:** Claude Canvas: A Visual Brain for Your Terminal
+**SLUG:** claude-canvas-visual-terminal
+**PRIMARY KEYWORD:** Claude Canvas
+**META DESCRIPTION:** I explore Claude Canvas, the TUI toolkit that turns your terminal into a visual powerhouse by adding email, calendar, and booking interfaces to Claude Code.
+**TAGS:** Claude Code, AI Tools, Terminal Productivity, Developer Experience, Tutorial
+
 ---
 
 # Claude Canvas: Your Terminal Now Has a Visual Brain

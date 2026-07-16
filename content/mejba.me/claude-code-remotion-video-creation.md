@@ -2,7 +2,7 @@
 **TITLE:** Create Videos by Prompting: Claude Code + Remotion Skill
 **SLUG:** claude-code-remotion-video-creation
 **TAGS:** AI Video, Claude Code, Remotion, Automation, Tutorial
-**META DESCRIPTION:** Learn how to create professional videos entirely by prompting Claude Code with the Remotion skill. From basic setup to advanced skill stacking and video chaining.
+**META DESCRIPTION:** Learn how to create professional videos entirely by prompting Claude Code with the Remotion skill, from basic setup to skill stacking and video chaining.
 
 ---
 

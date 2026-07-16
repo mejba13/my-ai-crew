@@ -1,15 +1,11 @@
----
-brand: mejba.me
-title: "Claude Sonnet 5 Changes Everything About Agentic Coding"
-slug: claude-sonnet-5-agentic-coding
-tags:
-  - AI Development
-  - Claude Code
-  - Agentic Coding
-  - Anthropic
-  - Deep Dive
-meta_description: "I tested Claude Sonnet 5's 1M token context and agentic coding abilities. Here's why it's the most capable coding model I've ever used."
-featured_image_prompt: "Create a premium tech blog hero image: Background: Dark gradient (#0F172A → #1E293B) with subtle grid pattern. Central element: 3D Claude logo morphing into flowing code streams. Floating icons: Terminal window, React component, game controller, 3D cube, brain neural network. Visual: Multiple code windows cascading from a single prompt origin point. Colors: Cyan (#06B6D4) glow on primary elements, purple (#8B5CF6) accents on secondary elements, blue (#3B82F6) connection lines between components. Effects: Neon glow trails, particle systems suggesting AI processing, depth of field blur on distant elements. Style: Futuristic tech visualization, clean vector elements with dimensional depth. Aspect ratio: 16:9"
+**BRAND:** mejba.me
+**TITLE:** Claude Sonnet 5 Changes Everything About Agentic Coding
+**META TITLE:** Claude Sonnet 5: A Real Agentic Coding Review
+**SLUG:** claude-sonnet-5-agentic-coding
+**PRIMARY KEYWORD:** Claude Sonnet 5
+**META DESCRIPTION:** I tested Claude Sonnet 5's 1M token context and agentic coding abilities on real projects. Here's why it's the most capable coding model I've ever used.
+**TAGS:** AI Development, Claude Code, Agentic Coding, Anthropic, Deep Dive
+
 ---
 
 # Claude Sonnet 5 Changes Everything About Agentic Coding

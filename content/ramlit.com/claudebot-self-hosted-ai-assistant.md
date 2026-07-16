@@ -1,5 +1,5 @@
 **BRAND:** ramlit.com
-**TITLE:** Claudebot: Self-Hosted AI Assistants for Enterprise Workflows
+**TITLE:** Claudebot: Self-Hosted AI Assistants for Enterprise
 **SLUG:** claudebot-self-hosted-ai-assistant
 **TAGS:** AI Integration, Workflow Automation, Enterprise Software, Self-Hosted Solutions, Technical Guide
 **META DESCRIPTION:** Discover how Claudebot brings self-hosted AI assistants to enterprise workflows with privacy-first architecture and multi-platform integration.
